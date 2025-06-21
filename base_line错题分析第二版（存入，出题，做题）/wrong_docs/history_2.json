@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "type": "choice",
+    "score": 5,
+    "content": "考古学家在唐代遗址中发现了一批标注'柜坊'字样的木质凭证，这些文物最能说明当时",
+    "options": [
+      "A. 民间金融借贷的规范化",
+      "B. 官方货币铸造的集中化",
+      "C. 海外贸易税收的票据化",
+      "D. 土地买卖契约的标准化"
+    ],
+    "knowledge_points": [
+      "中国古代经济史"
+    ],
+    "user_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 2,
+    "type": "choice",
+    "score": 5,
+    "content": "清代学者顾炎武在《日知录》中提出'天下兴亡，匹夫有责'，这一主张主要批判的是",
+    "options": [
+      "A. 科举制度的僵化",
+      "B. 士大夫的明哲保身",
+      "C. 商业资本的膨胀",
+      "D. 君主专制的强化"
+    ],
+    "knowledge_points": [
+      "中国古代思想史"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 4,
+    "type": "choice",
+    "score": 5,
+    "content": "古希腊城邦颁布的'陶片放逐法'规定公民有权投票驱逐危害城邦者，这体现了",
+    "options": [
+      "A. 原始民主的运作机制",
+      "B. 奴隶制度的残酷性",
+      "C. 军事独裁的合法性",
+      "D. 宗教审判的程序性"
+    ],
+    "knowledge_points": [
+      "世界古代史"
+    ],
+    "user_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 7,
+    "type": "choice",
+    "score": 5,
+    "content": "1980年代某大国提出的'高边疆战略'主要着眼于",
+    "options": [
+      "A. 争夺太空军事优势",
+      "B. 开发深海资源",
+      "C. 建设信息高速公路",
+      "D. 保护南极生态环境"
+    ],
+    "knowledge_points": [
+      "世界当代史"
+    ],
+    "user_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 8,
+    "type": "choice",
+    "score": 5,
+    "content": "考古发现某种象形文字常与金字塔建造记录同时出现，这种文字最可能属于",
+    "options": [
+      "A. 玛雅文明",
+      "B. 古埃及文明",
+      "C. 印度河文明",
+      "D. 苏美尔文明"
+    ],
+    "knowledge_points": [
+      "史学理论与方法"
+    ],
+    "user_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 9,
+    "type": "choice",
+    "score": 5,
+    "content": "某中世纪文献记载了'国王是否应该向教会纳税'的争论，这场辩论最可能发生在",
+    "options": [
+      "A. 加洛林文艺复兴时期",
+      "B. 十字军东征期间",
+      "C. 英诺森三世任教皇时期",
+      "D. 黑死病爆发前夕"
+    ],
+    "knowledge_points": [
+      "历史事件分析"
+    ],
+    "user_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": 10,
+    "type": "choice",
+    "score": 5,
+    "content": "某思想家因其'三权分立'理论被多国宪法采纳而闻名，这位人物是",
+    "options": [
+      "A. 卢梭",
+      "B. 伏尔泰",
+      "C. 孟德斯鸠",
+      "D. 狄德罗"
+    ],
+    "knowledge_points": [
+      "历史人物评价"
+    ],
+    "user_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": 11,
+    "type": "essay",
+    "score": 12,
+    "content": "阅读材料，完成下列要求。\n材料一：18世纪末英国议会通过的《工厂法》对童工工作时间作出限制\n材料二：19世纪30年代英国爆发要求扩大选举权的宪章运动\n（1）根据材料一分析早期工厂立法的进步性与局限性\n（2）结合材料二说明工人阶级政治诉求与工业革命的关系",
+    "options": [],
+    "knowledge_points": [
+      "世界近代史",
+      "社会变革"
+    ],
+    "user_answer": "df",
+    "correct_answer": "（1）进步性：体现人道主义关怀，开始关注劳动者权益；局限性：执行力度不足，未触及根本剥削制度。（2）工业革命壮大了工人阶级力量，使其产生政治觉醒，经济地位与政治权利不匹配促使斗争升级。",
+    "is_correct": false
+  },
+  {
+    "id": 12,
+    "type": "essay",
+    "score": 12,
+    "content": "阅读材料，完成下列要求。\n材料一：阿拉伯帝国时期的医学著作《医典》记载了600多种药物\n材料二：该著作被译为拉丁文后成为欧洲医学院标准教材\n（1）概括阿拉伯医学成就的主要特点\n（2）分析阿拉伯文明在东西方文化交流中的历史作用",
+    "options": [],
+    "knowledge_points": [
+      "世界古代史",
+      "科技发展"
+    ],
+    "user_answer": "fd",
+    "correct_answer": "（1）系统性强，注重临床实践，融合多文明成果。（2）保存并发展了古希腊罗马医学，向欧洲传播东方医药知识，搭建了东西方科学交流的桥梁。",
+    "is_correct": false
+  }
+]

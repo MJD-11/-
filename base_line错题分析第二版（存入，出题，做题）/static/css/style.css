@@ -1,0 +1,81 @@
+/* 错题文档管理系统样式 */
+
+.json-highlight {
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 15px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.json-highlight .key {
+    color: #0066cc;
+    font-weight: bold;
+}
+
+.json-highlight .string {
+    color: #008800;
+}
+
+.json-highlight .number {
+    color: #aa0000;
+}
+
+.json-highlight .boolean {
+    color: #b0b;
+}
+
+.json-highlight .null {
+    color: #999;
+}
+
+/* 页面过渡动画 */
+.fade {
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* 卡片悬停效果 */
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+/* 按钮悬停效果 */
+.btn-primary:hover {
+    transform: translateY(-2px);
+    transition: transform 0.2s ease;
+}
+
+/* 加载动画 */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.custom-spinner {
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-left-color: #0d6efd;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .card {
+        margin-bottom: 15px;
+    }
+    
+    .document-content {
+        font-size: 12px;
+    }
+} 

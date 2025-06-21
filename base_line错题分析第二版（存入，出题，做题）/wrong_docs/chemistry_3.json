@@ -1,0 +1,338 @@
+[
+  {
+    "id": 2,
+    "type": "choice",
+    "score": 5,
+    "content": "在常温下，下列各组离子能在溶液中大量共存的是：",
+    "options": [
+      "A. Fe3+、SCN-、H+",
+      "B. NH4+、OH-、Cl-",
+      "C. K+、CO32-、HCO3-",
+      "D. Ag+、Cl-、NO3-"
+    ],
+    "knowledge_points": [
+      "离子共存",
+      "溶液化学"
+    ],
+    "user_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": 3,
+    "type": "choice",
+    "score": 5,
+    "content": "设NA为阿伏伽德罗常数的数值，下列说法正确的是：",
+    "options": [
+      "A. 1mol O3含有3NA个氧原子",
+      "B. 18g H2O含有NA个氢原子",
+      "C. 标况下，22.4L CO2含有NA个分子",
+      "D. 1mol NaCl溶液中含有NA个Na+"
+    ],
+    "knowledge_points": [
+      "阿伏伽德罗常数",
+      "物质的量"
+    ],
+    "user_answer": "D",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 5,
+    "type": "choice",
+    "score": 5,
+    "content": "下列措施不合理的是：",
+    "options": [
+      "A. 用活性炭去除水中的异味",
+      "B. 用浓硫酸干燥氨气",
+      "C. 用氢氧化钠溶液处理废酸",
+      "D. 用氯气消毒游泳池水"
+    ],
+    "knowledge_points": [
+      "化学应用",
+      "环境保护"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 7,
+    "type": "choice",
+    "score": 5,
+    "content": "元素X、Y、Z、W在元素周期表中的相对位置如下表所示，其中X单质在暗处与H2剧烈化合并发生爆炸。下列说法正确的是：",
+    "options": [
+      "A. X是F元素",
+      "B. Y的最高价氧化物对应的水化物是强酸",
+      "C. Z的氢化物比W的氢化物更稳定",
+      "D. W的原子半径比X的原子半径大"
+    ],
+    "knowledge_points": [
+      "元素周期表",
+      "元素性质"
+    ],
+    "user_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 8,
+    "type": "choice",
+    "score": 5,
+    "content": "下列实验现象与对应结论均正确的是：",
+    "options": [
+      "A. 向FeCl3溶液中滴加KSCN溶液，溶液变红，说明生成了Fe(SCN)3",
+      "B. 将Na2CO3溶液加热，产生气泡，说明Na2CO3分解",
+      "C. 将Cu片放入浓硝酸中，溶液变蓝，说明生成了Cu(NO3)2",
+      "D. 将Cl2通入淀粉碘化钾溶液中，溶液变蓝，说明生成了I2"
+    ],
+    "knowledge_points": [
+      "化学实验",
+      "实验现象"
+    ],
+    "user_answer": "A",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": 9,
+    "type": "choice",
+    "score": 5,
+    "content": "新型催化剂A能在室温下高效催化空气中NO的氧化，其反应如下：2NO + O2 → 2NO2。下列说法正确的是：",
+    "options": [
+      "A. 催化剂A能改变反应的平衡常数",
+      "B. 该反应的ΔH < 0，说明是放热反应",
+      "C. 增大O2浓度，NO的转化率一定增大",
+      "D. 该反应的速率方程为v = k[NO][O2]"
+    ],
+    "knowledge_points": [
+      "催化剂",
+      "化学反应原理"
+    ],
+    "user_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 11,
+    "type": "essay",
+    "score": 12,
+    "content": "某工厂利用废铜屑制备硫酸铜和铜的纳米材料。工艺流程如下：\n1. 将废铜屑与过量稀硫酸反应，生成硫酸铜溶液和氢气。\n2. 将硫酸铜溶液蒸发浓缩，冷却结晶得到硫酸铜晶体。\n3. 将硫酸铜晶体在高温下分解，得到氧化铜。\n4. 将氧化铜在氢气中还原，得到铜的纳米材料。\n请回答以下问题：\n（1）写出步骤1的化学方程式。\n（2）步骤2中，硫酸铜溶液蒸发浓缩时，应如何控制温度？\n（3）步骤3中，硫酸铜晶体分解的化学方程式是什么？\n（4）步骤4中，氧化铜还原为铜的化学方程式是什么？",
+    "options": [],
+    "knowledge_points": [
+      "无机化学",
+      "化学工艺"
+    ],
+    "user_answer": "1",
+    "correct_answer": "（1）Cu + H2SO4 → CuSO4 + H2↑\n（2）应控制在适当温度，避免过高导致硫酸铜分解。\n（3）CuSO4 → CuO + SO3↑\n（4）CuO + H2 → Cu + H2O",
+    "is_correct": false
+  },
+  {
+    "id": 12,
+    "type": "essay",
+    "score": 12,
+    "content": "二氧化铈（CeO2）是一种重要的稀土氧化物，广泛应用于催化剂和抛光剂。某研究小组通过以下步骤制备CeO2：\n1. 将Ce(NO3)3溶液与NH3·H2O反应，生成沉淀。\n2. 将沉淀过滤、洗涤、干燥。\n3. 将干燥后的沉淀在高温下煅烧，得到CeO2。\n请回答以下问题：\n（1）写出步骤1的化学方程式。\n（2）步骤2中，洗涤沉淀时，应选择什么洗涤剂？为什么？\n（3）步骤3中，煅烧沉淀的化学方程式是什么？\n（4）CeO2作为催化剂的优点有哪些？",
+    "options": [],
+    "knowledge_points": [
+      "稀土元素",
+      "化学制备"
+    ],
+    "user_answer": "1",
+    "correct_answer": "（1）Ce(NO3)3 + 3NH3·H2O → Ce(OH)3↓ + 3NH4NO3\n（2）应选择蒸馏水洗涤，以去除表面杂质离子。\n（3）Ce(OH)3 → CeO2 + H2O\n（4）CeO2具有高催化活性、良好的热稳定性和化学稳定性。",
+    "is_correct": false
+  },
+  {
+    "id": 13,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "已知函数f(x)=x^3-3x+1，则f'(x)的零点坐标为　　．",
+    "options": [],
+    "knowledge_points": [
+      "导数"
+    ],
+    "user_answer": "11",
+    "correct_answer": "(1,0)",
+    "is_correct": false
+  },
+  {
+    "id": 14,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "在空间直角坐标系中，点P(1,2,3)到平面x+y+z=1的距离是　　．",
+    "options": [],
+    "knowledge_points": [
+      "空间几何"
+    ],
+    "user_answer": "1",
+    "correct_answer": "4",
+    "is_correct": false
+  },
+  {
+    "id": 15,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "已知函数f(x)=x^2+ax+b，若f(x)在区间[-1,1]上的最大值为M，最小值为m，且M+m=2，则b的值为　　．",
+    "options": [],
+    "knowledge_points": [
+      "函数"
+    ],
+    "user_answer": "1",
+    "correct_answer": "2",
+    "is_correct": false
+  },
+  {
+    "id": 16,
+    "type": "essay",
+    "score": 12,
+    "content": "已知函数f(x)=x^3-3x+1，求f(x)的单调区间和极值点．",
+    "options": [],
+    "knowledge_points": [
+      "函数",
+      "导数"
+    ],
+    "user_answer": "1",
+    "correct_answer": "单调增区间：(-∞, -1)和(1, +∞)，单调减区间：(-1, 1)；极小值点：x=-1，极大值点：x=1",
+    "is_correct": false
+  },
+  {
+    "id": 17,
+    "type": "essay",
+    "score": 12,
+    "content": "在三角形ABC中，角A、B、C的对边分别为a、b、c，若sinA+sinB+sinC=2，证明：三角形ABC为等边三角形．",
+    "options": [],
+    "knowledge_points": [
+      "三角函数"
+    ],
+    "user_answer": "1",
+    "correct_answer": "证明：由正弦定理得a/sinA = b/sinB = c/sinC，又sinA+sinB+sinC=2，得a+b+c=2abc/(sinA+sinB+sinC)=abc，由余弦定理得a^2+b^2-2ab*cosC=c^2，代入a+b+c=abc得ab(cosC-2)=0，因为C为三角形内角，所以cosC≠2，故ab=0，即a=b=c，所以三角形ABC为等边三角形．",
+    "is_correct": false
+  },
+  {
+    "id": 18,
+    "type": "essay",
+    "score": 12,
+    "content": "在空间直角坐标系中，求点P(1,2,3)到平面x+y+z=1的距离．",
+    "options": [],
+    "knowledge_points": [
+      "空间几何"
+    ],
+    "user_answer": "1",
+    "correct_answer": "距离为4",
+    "is_correct": false
+  },
+  {
+    "id": 19,
+    "type": "essay",
+    "score": 12,
+    "content": "已知函数f(x)=x^2+ax+b，若f(x)在区间[-1,1]上的最大值为M，最小值为m，且M+m=2，求a和b的值．",
+    "options": [],
+    "knowledge_points": [
+      "函数"
+    ],
+    "user_answer": "1",
+    "correct_answer": "a=-2，b=2",
+    "is_correct": false
+  },
+  {
+    "id": 20,
+    "type": "essay",
+    "score": 12,
+    "content": "已知数列{an}的前n项和为Sn，若Sn=2n^2+3n，求an的表达式．",
+    "options": [],
+    "knowledge_points": [
+      "数列"
+    ],
+    "user_answer": "1",
+    "correct_answer": "an=4n+1",
+    "is_correct": false
+  },
+  {
+    "id": 21,
+    "type": "essay",
+    "score": 12,
+    "content": "在等差数列{an}中，若a1+a3+a5=21，a2+a4+a6=27，求公差d和首项a1的值．",
+    "options": [],
+    "knowledge_points": [
+      "数列"
+    ],
+    "user_answer": "1",
+    "correct_answer": "d=3，a1=5",
+    "is_correct": false
+  },
+  {
+    "id": 1,
+    "type": "choice",
+    "score": 5,
+    "content": "下列关于新型纳米材料的应用说法正确的是：",
+    "options": [
+      "A. 纳米银主要用于制造导电涂料",
+      "B. 纳米氧化钛广泛应用于太阳能电池",
+      "C. 纳米碳管主要用于食品添加剂",
+      "D. 纳米氧化铝主要用于制造防弹衣"
+    ],
+    "knowledge_points": [
+      "纳米材料",
+      "材料应用"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 4,
+    "type": "choice",
+    "score": 5,
+    "content": "下列叙述中，正确并且有因果关系的是：",
+    "options": [
+      "A. 增大压强，化学反应速率加快",
+      "B. 升高温度，溶液的pH值一定减小",
+      "C. 加入催化剂，反应的平衡常数增大",
+      "D. 增大反应物浓度，平衡向生成物方向移动"
+    ],
+    "knowledge_points": [
+      "化学反应原理",
+      "化学平衡"
+    ],
+    "user_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": 6,
+    "type": "choice",
+    "score": 5,
+    "content": "在25℃时，下列各溶液中，离子的物质的量浓度关系正确的是：",
+    "options": [
+      "A. pH=3的醋酸溶液中，c(H+) > c(CH3COO-)",
+      "B. 0.1mol/L NaOH溶液中，c(Na+) = c(OH-)",
+      "C. 0.1mol/L HCl和0.1mol/L NaOH等体积混合后，c(H+) = c(OH-)",
+      "D. 0.1mol/L Na2CO3溶液中，c(Na+) = 2c(CO32-)"
+    ],
+    "knowledge_points": [
+      "溶液化学",
+      "离子浓度"
+    ],
+    "user_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": 10,
+    "type": "choice",
+    "score": 5,
+    "content": "大气中的部分溴源于O3对海水中Br-的氧化。将O3持续通入NaBr溶液中进行模拟研究。下列说法正确的是：",
+    "options": [
+      "A. O3能直接将Br-氧化为Br2",
+      "B. 溶液中生成的Br2可用CCl4萃取",
+      "C. 反应过程中溶液的pH值逐渐增大",
+      "D. 溶液中生成的Br2可与NaOH反应生成NaBrO"
+    ],
+    "knowledge_points": [
+      "氧化还原反应",
+      "溶液化学"
+    ],
+    "user_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  }
+]

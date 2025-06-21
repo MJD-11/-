@@ -1,0 +1,308 @@
+{
+  "exam_name": "2025年全国卷数学模拟试卷",
+  "questions": [
+    {
+      "id": 1,
+      "type": "choice",
+      "score": 5,
+      "content": "设函数f(x)的定义域为R，若f(x+1)=f(x)+1，且f(0)=0，则f(2025)的值为（　　）",
+      "options": [
+        "A. 2025",
+        "B. 2024",
+        "C. 2023",
+        "D. 2022"
+      ],
+      "knowledge_points": [
+        "函数"
+      ],
+      "user_answer": "",
+      "correct_answer": "A"
+    },
+    {
+      "id": 2,
+      "type": "choice",
+      "score": 5,
+      "content": "在三角形ABC中，角A、B、C的对边分别为a、b、c，若sinA+sinB+sinC=2，则三角形ABC的形状是（　　）",
+      "options": [
+        "A. 等边三角形",
+        "B. 等腰三角形",
+        "C. 直角三角形",
+        "D. 无法确定"
+      ],
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "user_answer": "",
+      "correct_answer": "A"
+    },
+    {
+      "id": 3,
+      "type": "choice",
+      "score": 5,
+      "content": "若复数z满足|z-1|=|z+i|，则z在复平面上的位置是（　　）",
+      "options": [
+        "A. 实轴上",
+        "B. 虚轴上",
+        "C. 以(1,0)为圆心的圆上",
+        "D. 以(0,-1)为圆心的圆上"
+      ],
+      "knowledge_points": [
+        "复数"
+      ],
+      "user_answer": "",
+      "correct_answer": "C"
+    },
+    {
+      "id": 4,
+      "type": "choice",
+      "score": 5,
+      "content": "已知数列{an}的前n项和为Sn，若Sn=2n^2+3n，则a5的值为（　　）",
+      "options": [
+        "A. 13",
+        "B. 15",
+        "C. 17",
+        "D. 19"
+      ],
+      "knowledge_points": [
+        "数列"
+      ],
+      "user_answer": "",
+      "correct_answer": "C"
+    },
+    {
+      "id": 5,
+      "type": "choice",
+      "score": 5,
+      "content": "在空间直角坐标系中，点P(1,2,3)到平面x+y+z=1的距离是（　　）",
+      "options": [
+        "A. 3",
+        "B. 4",
+        "C. 5",
+        "D. 6"
+      ],
+      "knowledge_points": [
+        "空间几何"
+      ],
+      "user_answer": "",
+      "correct_answer": "B"
+    },
+    {
+      "id": 6,
+      "type": "choice",
+      "score": 5,
+      "content": "已知函数f(x)=x^3-3x+1，则f'(x)的零点个数为（　　）",
+      "options": [
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
+      ],
+      "knowledge_points": [
+        "导数"
+      ],
+      "user_answer": "",
+      "correct_answer": "B"
+    },
+    {
+      "id": 7,
+      "type": "choice",
+      "score": 5,
+      "content": "在平面直角坐标系中，椭圆x^2/4+y^2/3=1的离心率为（　　）",
+      "options": [
+        "A. 1/2",
+        "B. 1/√2",
+        "C. √2/2",
+        "D. √3/2"
+      ],
+      "knowledge_points": [
+        "几何"
+      ],
+      "user_answer": "",
+      "correct_answer": "C"
+    },
+    {
+      "id": 8,
+      "type": "choice",
+      "score": 5,
+      "content": "若函数f(x)在区间[0,1]上的积分值为1，则f(x)在区间[0,1/2]上的积分值（　　）",
+      "options": [
+        "A. ≤ 1/2",
+        "B. ≥ 1/2",
+        "C. = 1/2",
+        "D. 无法确定"
+      ],
+      "knowledge_points": [
+        "积分"
+      ],
+      "user_answer": "",
+      "correct_answer": "B"
+    },
+    {
+      "id": 9,
+      "type": "choice",
+      "score": 5,
+      "content": "在等差数列{an}中，若a1+a3+a5=21，a2+a4+a6=27，则公差d的值为（　　）",
+      "options": [
+        "A. 2",
+        "B. 3",
+        "C. 4",
+        "D. 5"
+      ],
+      "knowledge_points": [
+        "数列"
+      ],
+      "user_answer": "",
+      "correct_answer": "B"
+    },
+    {
+      "id": 10,
+      "type": "choice",
+      "score": 5,
+      "content": "已知函数f(x)=x^2+ax+b，若f(x)在区间[-1,1]上的最大值为M，最小值为m，且M+m=2，则a的值为（　　）",
+      "options": [
+        "A. 0",
+        "B. 1",
+        "C. -1",
+        "D. -2"
+      ],
+      "knowledge_points": [
+        "函数"
+      ],
+      "user_answer": "",
+      "correct_answer": "D"
+    },
+    {
+      "id": 11,
+      "type": "fill_blank",
+      "score": 5,
+      "content": "若等比数列{an}的前n项和为Sn，且S3=14，a1=2，则公比q=　　．",
+      "knowledge_points": [
+        "数列"
+      ],
+      "user_answer": "",
+      "correct_answer": "2",
+      "options": []
+    },
+    {
+      "id": 12,
+      "type": "fill_blank",
+      "score": 5,
+      "content": "在三角形ABC中，角A、B、C的对边分别为a、b、c，若sinA+sinB+sinC=2，则角C的度数为　　．",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "user_answer": "",
+      "correct_answer": "60°",
+      "options": []
+    },
+    {
+      "id": 13,
+      "type": "fill_blank",
+      "score": 5,
+      "content": "已知函数f(x)=x^3-3x+1，则f'(x)的零点坐标为　　．",
+      "knowledge_points": [
+        "导数"
+      ],
+      "user_answer": "",
+      "correct_answer": "(1,0)",
+      "options": []
+    },
+    {
+      "id": 14,
+      "type": "fill_blank",
+      "score": 5,
+      "content": "在空间直角坐标系中，点P(1,2,3)到平面x+y+z=1的距离是　　．",
+      "knowledge_points": [
+        "空间几何"
+      ],
+      "user_answer": "",
+      "correct_answer": "4",
+      "options": []
+    },
+    {
+      "id": 15,
+      "type": "fill_blank",
+      "score": 5,
+      "content": "已知函数f(x)=x^2+ax+b，若f(x)在区间[-1,1]上的最大值为M，最小值为m，且M+m=2，则b的值为　　．",
+      "knowledge_points": [
+        "函数"
+      ],
+      "user_answer": "",
+      "correct_answer": "2",
+      "options": []
+    },
+    {
+      "id": 16,
+      "type": "essay",
+      "score": 12,
+      "content": "已知函数f(x)=x^3-3x+1，求f(x)的单调区间和极值点．",
+      "knowledge_points": [
+        "函数",
+        "导数"
+      ],
+      "user_answer": "",
+      "correct_answer": "单调增区间：(-∞, -1)和(1, +∞)，单调减区间：(-1, 1)；极小值点：x=-1，极大值点：x=1",
+      "options": []
+    },
+    {
+      "id": 17,
+      "type": "essay",
+      "score": 12,
+      "content": "在三角形ABC中，角A、B、C的对边分别为a、b、c，若sinA+sinB+sinC=2，证明：三角形ABC为等边三角形．",
+      "knowledge_points": [
+        "三角函数"
+      ],
+      "user_answer": "",
+      "correct_answer": "证明：由正弦定理得a/sinA = b/sinB = c/sinC，又sinA+sinB+sinC=2，得a+b+c=2abc/(sinA+sinB+sinC)=abc，由余弦定理得a^2+b^2-2ab*cosC=c^2，代入a+b+c=abc得ab(cosC-2)=0，因为C为三角形内角，所以cosC≠2，故ab=0，即a=b=c，所以三角形ABC为等边三角形．",
+      "options": []
+    },
+    {
+      "id": 18,
+      "type": "essay",
+      "score": 12,
+      "content": "在空间直角坐标系中，求点P(1,2,3)到平面x+y+z=1的距离．",
+      "knowledge_points": [
+        "空间几何"
+      ],
+      "user_answer": "",
+      "correct_answer": "距离为4",
+      "options": []
+    },
+    {
+      "id": 19,
+      "type": "essay",
+      "score": 12,
+      "content": "已知函数f(x)=x^2+ax+b，若f(x)在区间[-1,1]上的最大值为M，最小值为m，且M+m=2，求a和b的值．",
+      "knowledge_points": [
+        "函数"
+      ],
+      "user_answer": "",
+      "correct_answer": "a=-2，b=2",
+      "options": []
+    },
+    {
+      "id": 20,
+      "type": "essay",
+      "score": 12,
+      "content": "已知数列{an}的前n项和为Sn，若Sn=2n^2+3n，求an的表达式．",
+      "knowledge_points": [
+        "数列"
+      ],
+      "user_answer": "",
+      "correct_answer": "an=4n+1",
+      "options": []
+    },
+    {
+      "id": 21,
+      "type": "essay",
+      "score": 12,
+      "content": "在等差数列{an}中，若a1+a3+a5=21，a2+a4+a6=27，求公差d和首项a1的值．",
+      "knowledge_points": [
+        "数列"
+      ],
+      "user_answer": "",
+      "correct_answer": "d=3，a1=5",
+      "options": []
+    }
+  ]
+}

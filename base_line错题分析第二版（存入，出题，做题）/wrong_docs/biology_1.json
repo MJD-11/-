@@ -1,0 +1,185 @@
+[
+  {
+    "id": 1,
+    "type": "choice",
+    "score": 5,
+    "content": "近年来，科学家发现一种新型植物激素X能够显著提高植物的抗旱能力。以下关于激素X的研究叙述，正确的是()",
+    "options": [
+      "A. 激素X在植物体内的合成不受环境因素的影响",
+      "B. 激素X主要通过影响细胞膜的透性来提高抗旱能力",
+      "C. 激素X的受体蛋白位于细胞核内",
+      "D. 激素X的作用机制与脱落酸相似"
+    ],
+    "knowledge_points": [
+      "植物激素的作用机制"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 2,
+    "type": "choice",
+    "score": 5,
+    "content": "某研究小组通过基因编辑技术成功培育出一种高抗病性水稻品种。以下关于该技术的叙述，错误的是()",
+    "options": [
+      "A. 基因编辑技术可以精确地改变特定基因的序列",
+      "B. 该技术可能导致非目标基因的突变",
+      "C. 基因编辑后的水稻不需要进行安全性评估",
+      "D. 该技术可以提高作物的抗逆性"
+    ],
+    "knowledge_points": [
+      "基因编辑技术的应用与风险"
+    ],
+    "user_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": 3,
+    "type": "choice",
+    "score": 5,
+    "content": "在研究某湖泊生态系统的能量流动时，发现初级生产者的能量转换效率较高。以下关于该生态系统的叙述，正确的是()",
+    "options": [
+      "A. 该生态系统的生物多样性一定较高",
+      "B. 初级生产者的能量转换效率高意味着生态系统更稳定",
+      "C. 该生态系统的能量流动速率较快",
+      "D. 初级生产者的种类单一"
+    ],
+    "knowledge_points": [
+      "生态系统的能量流动"
+    ],
+    "user_answer": "A",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 4,
+    "type": "choice",
+    "score": 5,
+    "content": "某实验小组通过PCR技术扩增某特定基因片段，以下关于PCR技术的叙述，错误的是()",
+    "options": [
+      "A. PCR技术需要引物来启动DNA的合成",
+      "B. PCR技术可以在常温下进行",
+      "C. PCR技术可以扩增微量的DNA样本",
+      "D. PCR技术需要热循环仪"
+    ],
+    "knowledge_points": [
+      "PCR技术的原理与应用"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 5,
+    "type": "choice",
+    "score": 5,
+    "content": "某研究发现，一种新型抗生素Y能够有效抑制耐药性细菌的生长。以下关于抗生素Y的叙述，正确的是()",
+    "options": [
+      "A. 抗生素Y的作用机制与青霉素相同",
+      "B. 抗生素Y对人体的正常菌群无影响",
+      "C. 抗生素Y可以用于治疗所有类型的细菌感染",
+      "D. 抗生素Y的研发基于微生物的代谢产物"
+    ],
+    "knowledge_points": [
+      "抗生素的作用机制与应用"
+    ],
+    "user_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": 6,
+    "type": "choice",
+    "score": 5,
+    "content": "在研究某遗传病的家系时，发现该病为常染色体隐性遗传。以下关于该遗传病的叙述，正确的是()",
+    "options": [
+      "A. 患者的父母一定都是携带者",
+      "B. 该病在男性中的发病率高于女性",
+      "C. 患者的子女一定患病",
+      "D. 患者的同胞中可能存在正常人"
+    ],
+    "knowledge_points": [
+      "常染色体隐性遗传的特点"
+    ],
+    "user_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": 7,
+    "type": "choice",
+    "score": 5,
+    "content": "某研究小组通过CRISPR-Cas9技术编辑某基因，成功治愈了小鼠的某种遗传病。以下关于该技术的叙述，错误的是()",
+    "options": [
+      "A. CRISPR-Cas9技术可以精确地切割特定DNA序列",
+      "B. 该技术可能导致脱靶效应",
+      "C. 该技术可以用于治疗所有类型的遗传病",
+      "D. 该技术需要设计特定的导向RNA"
+    ],
+    "knowledge_points": [
+      "CRISPR-Cas9技术的原理与应用"
+    ],
+    "user_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": 8,
+    "type": "choice",
+    "score": 5,
+    "content": "在研究某植物的光合作用时，发现其叶片中叶绿素的含量较高。以下关于该植物的叙述，正确的是()",
+    "options": [
+      "A. 该植物的光合作用效率一定较高",
+      "B. 该植物的生长速率一定较快",
+      "C. 该植物的抗逆性一定较强",
+      "D. 该植物的叶片颜色一定较深"
+    ],
+    "knowledge_points": [
+      "光合作用与叶绿素的关系"
+    ],
+    "user_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": 10,
+    "type": "essay",
+    "score": 10,
+    "content": "请简述基因工程在农业中的应用，并举例说明其带来的利与弊。",
+    "options": [],
+    "knowledge_points": [
+      "基因工程的应用与影响"
+    ],
+    "user_answer": "1",
+    "correct_answer": "基因工程在农业中的应用包括提高作物的抗病性、抗虫性、抗逆性以及改良作物的品质等。例如，通过基因工程技术培育的抗虫棉可以有效减少农药的使用，提高产量。然而，基因工程也可能带来一些负面影响，如可能导致基因污染、影响生物多样性以及引发食品安全问题等。",
+    "is_correct": false
+  },
+  {
+    "id": 11,
+    "type": "essay",
+    "score": 10,
+    "content": "请解释生态系统中的食物链和食物网的概念，并说明其在生态平衡中的作用。",
+    "options": [],
+    "knowledge_points": [
+      "生态系统的结构与功能"
+    ],
+    "user_answer": "1",
+    "correct_answer": "食物链是指生态系统中生产者和消费者之间通过吃与被吃的关系形成的链状结构，而食物网则是由多个食物链相互交织形成的复杂网络。食物链和食物网在生态平衡中起着重要作用，它们能够调节种群数量，维持生态系统的稳定性和多样性。",
+    "is_correct": false
+  },
+  {
+    "id": 12,
+    "type": "essay",
+    "score": 10,
+    "content": "请简述细胞凋亡的概念及其在生物体中的意义。",
+    "options": [],
+    "knowledge_points": [
+      "细胞凋亡的机制与意义"
+    ],
+    "user_answer": "1",
+    "correct_answer": "细胞凋亡是指由基因控制的细胞程序性死亡过程。它在生物体中具有重要的意义，包括清除多余或受损的细胞、维持组织器官的正常发育和功能、防止细胞癌变等。细胞凋亡的异常可能导致多种疾病，如癌症和神经退行性疾病。",
+    "is_correct": false
+  }
+]

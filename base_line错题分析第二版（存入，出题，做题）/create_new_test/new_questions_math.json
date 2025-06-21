@@ -1,0 +1,412 @@
+[
+  {
+    "id": 1,
+    "type": "choice",
+    "score": 5,
+    "content": "某算法流程图执行后输出的S值为：开始→S=0,n=1→S=S+1/n→n=n+1→n>4?→是→输出S。则输出的S值为（　　）",
+    "options": [
+      "A. 1.5",
+      "B. 1.8",
+      "C. 2.083",
+      "D. 2.283"
+    ],
+    "knowledge_points": [
+      "算法流程"
+    ],
+    "user_answer": "",
+    "correct_answer": "C"
+  },
+  {
+    "id": 2,
+    "type": "choice",
+    "score": 5,
+    "content": "若复数z满足|z-2i|=|z+2|，则z在复平面上的轨迹是（　　）",
+    "options": [
+      "A. 直线",
+      "B. 圆",
+      "C. 椭圆",
+      "D. 双曲线"
+    ],
+    "knowledge_points": [
+      "复数几何意义"
+    ],
+    "user_answer": "",
+    "correct_answer": "A"
+  },
+  {
+    "id": 3,
+    "type": "choice",
+    "score": 5,
+    "content": "某校高三有400名学生，其中选考物理的占60%。现从所有学生中随机抽取5人，则这5人中至少有3人选考物理的概率约为（　　）",
+    "options": [
+      "A. 0.3456",
+      "B. 0.6826",
+      "C. 0.9130",
+      "D. 0.9898"
+    ],
+    "knowledge_points": [
+      "概率计算"
+    ],
+    "user_answer": "",
+    "correct_answer": "B"
+  },
+  {
+    "id": 4,
+    "type": "choice",
+    "score": 5,
+    "content": "极坐标方程ρ=4sinθ表示的曲线与极轴平行的切线方程为（　　）",
+    "options": [
+      "A. θ=π/6",
+      "B. θ=π/3",
+      "C. θ=π/2",
+      "D. θ=2π/3"
+    ],
+    "knowledge_points": [
+      "极坐标与导数"
+    ],
+    "user_answer": "",
+    "correct_answer": "C"
+  },
+  {
+    "id": 5,
+    "type": "choice",
+    "score": 5,
+    "content": "已知函数f(x)在区间[0,6]上的图像有3个极大值点和2个极小值点，则方程f(x)=c（c为常数）在该区间内最多有（　　）个实数解",
+    "options": [
+      "A. 5",
+      "B. 6",
+      "C. 7",
+      "D. 8"
+    ],
+    "knowledge_points": [
+      "函数性质"
+    ],
+    "user_answer": "",
+    "correct_answer": "C"
+  },
+  {
+    "id": 6,
+    "type": "choice",
+    "score": 5,
+    "content": "在等比数列{an}中，若a2+a4+a6=21，a3+a5+a7=42，则公比q的值为（　　）",
+    "options": [
+      "A. 1.5",
+      "B. 2",
+      "C. 2.5",
+      "D. 3"
+    ],
+    "knowledge_points": [
+      "数列性质"
+    ],
+    "user_answer": "",
+    "correct_answer": "B"
+  },
+  {
+    "id": 7,
+    "type": "choice",
+    "score": 5,
+    "content": "设函数f(x)满足f(x+2)=f(x)+2x+3，且f(0)=1，则f(10)的值为（　　）",
+    "options": [
+      "A. 111",
+      "B. 121",
+      "C. 131",
+      "D. 141"
+    ],
+    "knowledge_points": [
+      "函数递推"
+    ],
+    "user_answer": "",
+    "correct_answer": "B"
+  },
+  {
+    "id": 8,
+    "type": "choice",
+    "score": 5,
+    "content": "已知数列{an}前n项和Sn=3n²-n，则a10的值为（　　）",
+    "options": [
+      "A. 56",
+      "B. 58",
+      "C. 60",
+      "D. 62"
+    ],
+    "knowledge_points": [
+      "数列求和"
+    ],
+    "user_answer": "",
+    "correct_answer": "B"
+  },
+  {
+    "id": 9,
+    "type": "choice",
+    "score": 5,
+    "content": "函数f(x)=x³-6x²+9x-2的导函数零点个数为（　　）",
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 3"
+    ],
+    "knowledge_points": [
+      "导数应用"
+    ],
+    "user_answer": "",
+    "correct_answer": "C"
+  },
+  {
+    "id": 10,
+    "type": "choice",
+    "score": 5,
+    "content": "下列几何命题中，不属于欧几里得公理体系的是（　　）",
+    "options": [
+      "A. 两点确定一条直线",
+      "B. 直角都相等",
+      "C. 平行公设",
+      "D. 勾股定理"
+    ],
+    "knowledge_points": [
+      "几何公理"
+    ],
+    "user_answer": "",
+    "correct_answer": "D"
+  },
+  {
+    "id": 11,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "已知等比数列{an}中，a₂=6，S₄=30，则公比q=______",
+    "options": [],
+    "knowledge_points": [
+      "等比数列"
+    ],
+    "user_answer": "",
+    "correct_answer": "2"
+  },
+  {
+    "id": 12,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "在△ABC中，若cosA+cosB+cosC=1.5，则角A的大小为______度",
+    "options": [],
+    "knowledge_points": [
+      "三角函数"
+    ],
+    "user_answer": "",
+    "correct_answer": "60"
+  },
+  {
+    "id": 13,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "函数f(x)=2x³-9x²+12x-5的导函数f'(x)的零点坐标为______",
+    "options": [],
+    "knowledge_points": [
+      "导数应用"
+    ],
+    "user_answer": "",
+    "correct_answer": "1,2"
+  },
+  {
+    "id": 14,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "点M(2,3,6)到平面2x-y+2z=5的距离为______",
+    "options": [],
+    "knowledge_points": [
+      "空间几何"
+    ],
+    "user_answer": "",
+    "correct_answer": "3"
+  },
+  {
+    "id": 15,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "函数f(x)=x²-4x+5在区间[0,3]上的最大值与最小值之和为______",
+    "options": [],
+    "knowledge_points": [
+      "函数最值"
+    ],
+    "user_answer": "",
+    "correct_answer": "10"
+  },
+  {
+    "id": 16,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "向量a=(2,1)与b=(-1,3)的夹角余弦值为______",
+    "options": [],
+    "knowledge_points": [
+      "向量运算"
+    ],
+    "user_answer": "",
+    "correct_answer": "1/√50"
+  },
+  {
+    "id": 17,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "正四棱锥P-ABCD的侧棱长为3，底面边长为2，则其外接球半径为______",
+    "options": [],
+    "knowledge_points": [
+      "立体几何"
+    ],
+    "user_answer": "",
+    "correct_answer": "1.5√2"
+  },
+  {
+    "id": 18,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "数列{aₙ}满足a₁=2，aₙ₊₁=3aₙ-1，则a₅=______",
+    "options": [],
+    "knowledge_points": [
+      "数列递推"
+    ],
+    "user_answer": "",
+    "correct_answer": "122"
+  },
+  {
+    "id": 19,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "函数f(x)=x²lnx在x=e处的导数值为______",
+    "options": [],
+    "knowledge_points": [
+      "导数计算"
+    ],
+    "user_answer": "",
+    "correct_answer": "3e"
+  },
+  {
+    "id": 20,
+    "type": "essay",
+    "score": 12,
+    "content": "已知函数f(x)=x³-6x²+9x+2，（1）求函数的单调区间；（2）确定函数的极值点及极值",
+    "options": [],
+    "knowledge_points": [
+      "导数应用"
+    ],
+    "user_answer": "",
+    "correct_answer": "(1)增区间：(-∞,1]∪[3,+∞)；减区间：[1,3] (2)极大值点x=1，极大值6；极小值点x=3，极小值2"
+  },
+  {
+    "id": 21,
+    "type": "essay",
+    "score": 12,
+    "content": "在△ABC中，证明：若cosA+cosB+cosC=1.5，则该三角形为等边三角形",
+    "options": [],
+    "knowledge_points": [
+      "三角函数"
+    ],
+    "user_answer": "",
+    "correct_answer": "证明过程需利用余弦函数性质及三角形内角和定理"
+  },
+  {
+    "id": 22,
+    "type": "essay",
+    "score": 12,
+    "content": "求点P(2,-1,3)到平面x-2y+2z=6的距离，并求该点在平面上的投影坐标",
+    "options": [],
+    "knowledge_points": [
+      "空间几何"
+    ],
+    "user_answer": "",
+    "correct_answer": "距离为2；投影坐标为(4/3,-7/3,5/3)"
+  },
+  {
+    "id": 23,
+    "type": "essay",
+    "score": 12,
+    "content": "已知函数f(x)=ax²+bx+1在[-1,1]上的最大值为3，最小值为-1，求实数a,b的值",
+    "options": [],
+    "knowledge_points": [
+      "二次函数"
+    ],
+    "user_answer": "",
+    "correct_answer": "a=2,b=0或a=-2,b=0"
+  },
+  {
+    "id": 24,
+    "type": "essay",
+    "score": 12,
+    "content": "已知数列{aₙ}前n项和Sₙ=3n²+5n，求通项公式aₙ，并判断该数列是否为等差数列",
+    "options": [],
+    "knowledge_points": [
+      "数列通项"
+    ],
+    "user_answer": "",
+    "correct_answer": "aₙ=6n+2；是等差数列"
+  },
+  {
+    "id": 25,
+    "type": "essay",
+    "score": 12,
+    "content": "在等比数列{aₙ}中，已知a₂+a₄+a₆=21，a₃+a₅+a₇=42，求首项a₁和公比q",
+    "options": [],
+    "knowledge_points": [
+      "等比数列"
+    ],
+    "user_answer": "",
+    "correct_answer": "a₁=3,q=2"
+  },
+  {
+    "id": 26,
+    "type": "essay",
+    "score": 13,
+    "content": "已知函数f(x)=eˣcosx，（1）求f(x)在[0,π]上的单调区间；（2）求该区间上的极值",
+    "options": [],
+    "knowledge_points": [
+      "导数应用"
+    ],
+    "user_answer": "",
+    "correct_answer": "(1)增区间：[0,π/4]；减区间：[π/4,π] (2)极大值点x=π/4，极大值e^(π/4)/√2"
+  },
+  {
+    "id": 27,
+    "type": "essay",
+    "score": 13,
+    "content": "三棱柱ABC-A'B'C'中，AA'⊥底面ABC，AB=AC=AA'=2，∠BAC=120°，（1）证明：BC⊥AA'；（2）求二面角A-BC-A'的余弦值",
+    "options": [],
+    "knowledge_points": [
+      "立体几何"
+    ],
+    "user_answer": "",
+    "correct_answer": "(1)证明略 (2)-1/√7"
+  },
+  {
+    "id": 28,
+    "type": "essay",
+    "score": 13,
+    "content": "已知双曲线C:x²/a²-y²/b²=1过点(4,√15)，离心率为2，（1）求C的方程；（2）若直线y=kx+1与C有两个交点，求k范围",
+    "options": [],
+    "knowledge_points": [
+      "解析几何"
+    ],
+    "user_answer": "",
+    "correct_answer": "(1)x²-y²/3=1 (2)k∈(-∞,-1)∪(1,+∞)"
+  },
+  {
+    "id": 29,
+    "type": "essay",
+    "score": 13,
+    "content": "设f(x)=x³-3x²-9x+a，（1）讨论单调性；（2）若f(x)有三个不同零点，求a的范围",
+    "options": [],
+    "knowledge_points": [
+      "函数性质"
+    ],
+    "user_answer": "",
+    "correct_answer": "(1)增区间：(-∞,-1]∪[3,+∞)；减区间：[-1,3] (2)-5<a<27"
+  },
+  {
+    "id": 30,
+    "type": "essay",
+    "score": 13,
+    "content": "某产品寿命X～N(1000,100²)，（1）求P(800<X<1200)；（2）若要求寿命不低于850的概率达99%，应选择什么参数的同类产品？（Φ(2)=0.9772,Φ(2.33)=0.99）",
+    "options": [],
+    "knowledge_points": [
+      "概率统计"
+    ],
+    "user_answer": "",
+    "correct_answer": "(1)0.9544 (2)μ≥850+100×2.33=1083"
+  }
+]

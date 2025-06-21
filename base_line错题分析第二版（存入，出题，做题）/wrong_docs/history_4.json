@@ -1,0 +1,210 @@
+[
+  {
+    "id": 1,
+    "type": "choice",
+    "score": 5,
+    "content": "北宋时期，某地出土了一块刻有‘交子’字样的铜板，这反映了当时哪种经济现象的出现？",
+    "options": [
+      "A. 青铜冶炼技术的进步",
+      "B. 纸币的广泛使用",
+      "C. 海外贸易的繁荣",
+      "D. 土地私有制的确立"
+    ],
+    "knowledge_points": [
+      "中国古代经济史"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 2,
+    "type": "choice",
+    "score": 5,
+    "content": "明末清初思想家黄宗羲提出‘工商皆本’，这一主张主要针对当时哪种社会现象？",
+    "options": [
+      "A. 重农抑商政策的盛行",
+      "B. 科举制度的弊端",
+      "C. 外来文化的冲击",
+      "D. 宗族势力的膨胀"
+    ],
+    "knowledge_points": [
+      "中国古代思想史"
+    ],
+    "user_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 3,
+    "type": "choice",
+    "score": 5,
+    "content": "19世纪末，某地农民在田间发现了一枚‘自强学堂’的印章，这最有可能与下列哪一历史事件相关？",
+    "options": [
+      "A. 洋务运动",
+      "B. 戊戌变法",
+      "C. 辛亥革命",
+      "D. 新文化运动"
+    ],
+    "knowledge_points": [
+      "中国近代史"
+    ],
+    "user_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 5,
+    "type": "choice",
+    "score": 5,
+    "content": "古罗马时期，某位执政官提出‘法律面前人人平等’，这一主张对后世产生了深远影响，主要体现在哪一方面？",
+    "options": [
+      "A. 政治制度",
+      "B. 经济政策",
+      "C. 文化教育",
+      "D. 军事战略"
+    ],
+    "knowledge_points": [
+      "世界古代史"
+    ],
+    "user_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 6,
+    "type": "choice",
+    "score": 5,
+    "content": "文艺复兴时期，某画家创作了一幅描绘‘雅典学院’的壁画，这反映了当时哪种思潮的兴起？",
+    "options": [
+      "A. 人文主义",
+      "B. 宗教改革",
+      "C. 启蒙思想",
+      "D. 科学革命"
+    ],
+    "knowledge_points": [
+      "世界近代史"
+    ],
+    "user_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 7,
+    "type": "choice",
+    "score": 5,
+    "content": "20世纪初，某国通过了一项旨在保障工人权益的法案，这最有可能发生在哪个国家？",
+    "options": [
+      "A. 英国",
+      "B. 德国",
+      "C. 美国",
+      "D. 日本"
+    ],
+    "knowledge_points": [
+      "世界现代史"
+    ],
+    "user_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 8,
+    "type": "choice",
+    "score": 5,
+    "content": "冷战时期，某超级大国提出了‘星球大战计划’，这主要旨在应对哪方面的威胁？",
+    "options": [
+      "A. 经济竞争",
+      "B. 军事对抗",
+      "C. 文化渗透",
+      "D. 恐怖主义"
+    ],
+    "knowledge_points": [
+      "世界当代史"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 9,
+    "type": "choice",
+    "score": 5,
+    "content": "某历史学家在研究古代文明时，发现了一种独特的楔形文字，这最有可能属于哪种文明？",
+    "options": [
+      "A. 古埃及文明",
+      "B. 古巴比伦文明",
+      "C. 古印度文明",
+      "D. 古希腊文明"
+    ],
+    "knowledge_points": [
+      "史学理论与方法"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 10,
+    "type": "choice",
+    "score": 5,
+    "content": "某历史文献记载了一场关于‘王权与教权’的辩论，这最有可能发生在哪个历史时期？",
+    "options": [
+      "A. 中世纪",
+      "B. 文艺复兴",
+      "C. 启蒙时代",
+      "D. 工业革命"
+    ],
+    "knowledge_points": [
+      "历史事件分析"
+    ],
+    "user_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 11,
+    "type": "choice",
+    "score": 5,
+    "content": "某位历史人物因其‘君主立宪’的主张而闻名，这位人物最有可能是谁？",
+    "options": [
+      "A. 康有为",
+      "B. 孙中山",
+      "C. 毛泽东",
+      "D. 邓小平"
+    ],
+    "knowledge_points": [
+      "历史人物评价"
+    ],
+    "user_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 13,
+    "type": "essay",
+    "score": 12,
+    "content": "阅读材料，完成下列问题。\n材料一：19世纪末，某国通过了一系列改革法案，旨在推动工业化进程。\n材料二：20世纪初，该国爆发了大规模的社会运动，要求进一步的政治改革。\n问题：（1）根据材料一，分析该国19世纪末改革的主要目标及其背景。（2）结合材料二，说明20世纪初社会运动的主要原因及其影响。",
+    "options": [],
+    "knowledge_points": [
+      "世界近代史",
+      "社会变革"
+    ],
+    "user_answer": "1",
+    "correct_answer": "（1）主要目标：推动工业化进程；背景：工业革命的影响、经济发展需求、社会矛盾的加剧。\n（2）主要原因：政治改革不彻底、社会矛盾激化；影响：推动政治体制改革、促进社会进步、引发更大范围的社会变革。",
+    "is_correct": false
+  },
+  {
+    "id": 14,
+    "type": "essay",
+    "score": 12,
+    "content": "阅读材料，完成下列问题。\n材料一：某古代文明留下了大量关于天文观测的记录。\n材料二：该文明在天文学领域的成就对后世产生了深远影响。\n问题：（1）根据材料一，分析该文明在天文学方面的主要成就及其特点。（2）结合材料二，说明这些成就对后世的影响及其意义。",
+    "options": [],
+    "knowledge_points": [
+      "世界古代史",
+      "科技发展"
+    ],
+    "user_answer": "1",
+    "correct_answer": "（1）主要成就：精确的天文观测记录；特点：系统性强、记录详实。\n（2）影响：为后世天文学研究提供基础、推动科技发展；意义：体现古代文明的智慧、促进人类对宇宙的认识。",
+    "is_correct": false
+  }
+]

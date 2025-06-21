@@ -1,0 +1,336 @@
+[
+  {
+    "id": 2,
+    "type": "choice",
+    "score": 5,
+    "content": "如图所示，程序框图（算法流程图）的输出结果是（　　）",
+    "options": [
+      "A. 5",
+      "B. 10",
+      "C. 15",
+      "D. 20"
+    ],
+    "knowledge_points": [
+      "数学基础知识"
+    ],
+    "user_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": 3,
+    "type": "choice",
+    "score": 5,
+    "content": "在下列命题中，不是公理的是（　　）",
+    "options": [
+      "A. 平行于同一个平面的两个平面平行",
+      "B. 过不在同一直线上的三点有且只有一个平面",
+      "C. 任意两点确定一条直线",
+      "D. 两直线相交，有且只有一个交点"
+    ],
+    "knowledge_points": [
+      "数学基础知识"
+    ],
+    "user_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": 5,
+    "type": "choice",
+    "score": 5,
+    "content": "某班级有50名学生，其中有30名男生和20名女生，随机询问了该班五名男生和五名女生在某次考试中的成绩，以下说法正确的是（　　）",
+    "options": [
+      "A. 男生成绩的标准差一定大于女生",
+      "B. 男生成绩的平均分一定高于女生",
+      "C. 男生成绩的中位数一定高于女生",
+      "D. 以上说法都不一定正确"
+    ],
+    "knowledge_points": [
+      "概率"
+    ],
+    "user_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": 7,
+    "type": "choice",
+    "score": 5,
+    "content": "在极坐标系中圆ρ=2cosθ的垂直于极轴的两条切线方程分别为（　　）",
+    "options": [
+      "A. θ=±π/4",
+      "B. θ=±π/3",
+      "C. θ=±π/2",
+      "D. θ=±π/6"
+    ],
+    "knowledge_points": [
+      "导数",
+      "几何"
+    ],
+    "user_answer": "D",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": 8,
+    "type": "choice",
+    "score": 5,
+    "content": "函数y=f(x)的图象如图所示，在区间[a, b]上可找到n（n≥2）个不同的数x1, x2, ..., xn，使得f(x1)=f(x2)=...=f(xn)，则n的最大值为（　　）",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    "knowledge_points": [
+      "函数"
+    ],
+    "user_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": 9,
+    "type": "choice",
+    "score": 5,
+    "content": "在平面直角坐标系中，O是坐标原点，两定点A, B满足|OA|=|OB|=2，则点集{P|OP=λOA+μOB, λ, μ∈R}表示的图形是（　　）",
+    "options": [
+      "A. 直线",
+      "B. 圆",
+      "C. 椭圆",
+      "D. 双曲线"
+    ],
+    "knowledge_points": [
+      "积分",
+      "几何"
+    ],
+    "user_answer": "B",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": 11,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "若(1+x)^n的展开式中x^4的系数为7，则实数n=　　．",
+    "options": [],
+    "knowledge_points": [
+      "数学基础知识"
+    ],
+    "user_answer": "1",
+    "correct_answer": "5",
+    "is_correct": false
+  },
+  {
+    "id": 12,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "设△ABC的内角A, B, C所对边的长分别为a, b, c，若b+c=2a，3sinA=5sinB，则cosC=　　．",
+    "options": [],
+    "knowledge_points": [
+      "数学基础知识"
+    ],
+    "user_answer": "1",
+    "correct_answer": "-1/2",
+    "is_correct": false
+  },
+  {
+    "id": 13,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "已知直线y=a交抛物线y=x^2于A, B两点，若该抛物线上存在点C，使得∠ACB为直角，则a=　　．",
+    "options": [],
+    "knowledge_points": [
+      "几何"
+    ],
+    "user_answer": "1",
+    "correct_answer": "1/2",
+    "is_correct": false
+  },
+  {
+    "id": 14,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "如图，互不相同的点A1, A2, …, An, …和B1, B2, …, Bn, …分别在角O的两条边上，若∠A1OA2=∠B1OB2=…=∠AnOAn+1=…=θ，则lim(n→∞)∠A1OBn=　　．",
+    "options": [],
+    "knowledge_points": [
+      "积分",
+      "几何",
+      "数列"
+    ],
+    "user_answer": "1",
+    "correct_answer": "π/2",
+    "is_correct": false
+  },
+  {
+    "id": 15,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "如图，正方体ABCD-A1B1C1D1的棱长为1，P为BC的中点，Q为线段CC1上的动点，则当PQ最短时，PQ的长度为　　．",
+    "options": [],
+    "knowledge_points": [
+      "积分"
+    ],
+    "user_answer": "1",
+    "correct_answer": "√2/2",
+    "is_correct": false
+  },
+  {
+    "id": 16,
+    "type": "essay",
+    "score": 12,
+    "content": "已知函数f(x)=4cosωx•sin(ωx+φ)（ω>0）的最小正周期为π．（1）求ω的值；（2）求函数f(x)在区间[0, π/2]上的最大值和最小值．",
+    "options": [],
+    "knowledge_points": [
+      "函数",
+      "导数"
+    ],
+    "user_answer": "1",
+    "correct_answer": "（1）ω=2；（2）最大值为2，最小值为-2",
+    "is_correct": false
+  },
+  {
+    "id": 17,
+    "type": "essay",
+    "score": 12,
+    "content": "设函数f(x)=ax-(1+a^2)x^2，其中a>0，区间I={x|f(x)>0}。（1）求区间I的长度；（2）证明：当a>1时，区间I的长度随a的增大而减小．",
+    "options": [],
+    "knowledge_points": [
+      "函数",
+      "导数"
+    ],
+    "user_answer": "1",
+    "correct_answer": "（1）长度为2/a；（2）证明过程略",
+    "is_correct": false
+  },
+  {
+    "id": 18,
+    "type": "essay",
+    "score": 12,
+    "content": "设椭圆E：x^2/a^2 + y^2/b^2 = 1的焦点在x轴上。（1）若椭圆E的焦距为1，求椭圆E的方程；（2）设F1，F2为椭圆E的焦点，求△F1PF2的面积的最大值．",
+    "options": [],
+    "knowledge_points": [
+      "几何"
+    ],
+    "user_answer": "1",
+    "correct_answer": "（1）x^2/4 + y^2/3 = 1；（2）面积最大值为3",
+    "is_correct": false
+  },
+  {
+    "id": 19,
+    "type": "essay",
+    "score": 13,
+    "content": "如图，圆锥顶点为P，底面圆心为O，其母线与底面所成的角为22.5°，AB和CD是底面上的两条弦，且AB⊥CD，求证：PA⊥PC．",
+    "options": [],
+    "knowledge_points": [
+      "几何"
+    ],
+    "user_answer": "1",
+    "correct_answer": "证明过程略",
+    "is_correct": false
+  },
+  {
+    "id": 20,
+    "type": "essay",
+    "score": 13,
+    "content": "设函数fn(x)=-1+x+x^2+…+x^n（x∈R，n∈N+），证明：（1）对每个n∈N+，fn(x)在x=1处取得最小值；（2）fn(x)在x=1处的最小值随n的增大而增大．",
+    "options": [],
+    "knowledge_points": [
+      "函数",
+      "导数",
+      "数列"
+    ],
+    "user_answer": "1",
+    "correct_answer": "证明过程略",
+    "is_correct": false
+  },
+  {
+    "id": 21,
+    "type": "essay",
+    "score": 13,
+    "content": "某高校数学系计划在周六和周日各举行一次主题不同的心理测试活动，分别由李老师和张老师负责，已知参加周六活动的学生人数为a，参加周日活动的学生人数为b，求证：a+b的最大值不小于2√ab．",
+    "options": [],
+    "knowledge_points": [
+      "概率"
+    ],
+    "user_answer": "1",
+    "correct_answer": "证明过程略",
+    "is_correct": false
+  },
+  {
+    "id": 1,
+    "type": "choice",
+    "score": 5,
+    "content": "设i是虚数单位，z是复数，若(z•i+2)=2z，则z=（　　）",
+    "options": [
+      "A. 1+i",
+      "B. 1-i",
+      "C. -1+i",
+      "D. -1-i"
+    ],
+    "knowledge_points": [
+      "数学基础知识"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 4,
+    "type": "choice",
+    "score": 5,
+    "content": "“a≤0”是“函数f(x)=|ax-1|x在区间(0, +∞)内单调递增”的（　　）",
+    "options": [
+      "A. 充分不必要条件",
+      "B. 必要不充分条件",
+      "C. 充分且必要条件",
+      "D. 既不充分也不必要条件"
+    ],
+    "knowledge_points": [
+      "函数",
+      "导数"
+    ],
+    "user_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 6,
+    "type": "choice",
+    "score": 5,
+    "content": "已知一元二次不等式f(x)<0的解集为{x|x<-1或x>2}，则f(10x)>0的解集为（　　）",
+    "options": [
+      "A. x<-1/10或x>1/5",
+      "B. -1/10<x<1/5",
+      "C. x<-1/5或x>1/10",
+      "D. -1/5<x<1/10"
+    ],
+    "knowledge_points": [
+      "函数",
+      "导数"
+    ],
+    "user_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 10,
+    "type": "choice",
+    "score": 5,
+    "content": "若函数f(x)=x^3+ax^2+bx+c有极值点x1, x2，且f(x1)=x1，则关于x的方程f(x)=x的根的个数为（　　）",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "knowledge_points": [
+      "函数",
+      "导数"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  }
+]

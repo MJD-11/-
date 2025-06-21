@@ -1,0 +1,316 @@
+[
+  {
+    "id": 1,
+    "type": "choice",
+    "score": 5,
+    "content": "某程序框图执行后输出的S值为一个等差数列的前5项和，已知该数列首项为2，公差为3，则输出结果为（　　）",
+    "options": [
+      "A. 25",
+      "B. 30",
+      "C. 35",
+      "D. 40"
+    ],
+    "knowledge_points": [
+      "数学基础知识"
+    ],
+    "user_answer": "C",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": 2,
+    "type": "choice",
+    "score": 5,
+    "content": "复数z满足|z-2i|=|z+2|，则z在复平面内对应的点位于（　　）",
+    "options": [
+      "A. 第一象限",
+      "B. 第二象限",
+      "C. 第三象限",
+      "D. 第四象限"
+    ],
+    "knowledge_points": [
+      "复数"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 3,
+    "type": "choice",
+    "score": 5,
+    "content": "从编号1-20的卡片中随机抽取3张，恰好抽到连续编号的概率是（　　）",
+    "options": [
+      "A. 1/19",
+      "B. 3/190",
+      "C. 1/114",
+      "D. 3/380"
+    ],
+    "knowledge_points": [
+      "概率"
+    ],
+    "user_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 4,
+    "type": "choice",
+    "score": 5,
+    "content": "极坐标方程ρ=4sinθ表示的曲线关于极轴的对称图形方程为（　　）",
+    "options": [
+      "A. ρ=-4sinθ",
+      "B. ρ=4cosθ",
+      "C. ρ=-4cosθ",
+      "D. ρ=4sin(π-θ)"
+    ],
+    "knowledge_points": [
+      "导数",
+      "几何"
+    ],
+    "user_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 6,
+    "type": "choice",
+    "score": 5,
+    "content": "等比数列{aₙ}中，a₂+a₄=10，a₃+a₅=20，则公比q的值为（　　）",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    "knowledge_points": [
+      "数列"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 7,
+    "type": "choice",
+    "score": 5,
+    "content": "定义在R上的函数f(x)满足f(x+2)=f(x)+2x+3，且f(0)=1，则f(10)的值为（　　）",
+    "options": [
+      "A. 111",
+      "B. 112",
+      "C. 113",
+      "D. 114"
+    ],
+    "knowledge_points": [
+      "函数"
+    ],
+    "user_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 8,
+    "type": "choice",
+    "score": 5,
+    "content": "数列{aₙ}前n项和Sₙ=3ⁿ-1，则a₄的值为（　　）",
+    "options": [
+      "A. 54",
+      "B. 81",
+      "C. 162",
+      "D. 243"
+    ],
+    "knowledge_points": [
+      "数列"
+    ],
+    "user_answer": "B",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 10,
+    "type": "choice",
+    "score": 5,
+    "content": "下列几何命题中，属于定理而非公理的是（　　）",
+    "options": [
+      "A. 两点确定一条直线",
+      "B. 平行线同位角相等",
+      "C. 等量加等量和相等",
+      "D. 整体大于部分"
+    ],
+    "knowledge_points": [
+      "数学基础知识"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 11,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "若(1+2x)ⁿ展开式中x³的系数为160，则正整数n=______",
+    "options": [],
+    "knowledge_points": [
+      "数学基础知识"
+    ],
+    "user_answer": "fd",
+    "correct_answer": "6",
+    "is_correct": false
+  },
+  {
+    "id": 12,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "△ABC中，a=4，b=5，c=6，则cosA=______",
+    "options": [],
+    "knowledge_points": [
+      "数学基础知识"
+    ],
+    "user_answer": "ds",
+    "correct_answer": "3/4",
+    "is_correct": false
+  },
+  {
+    "id": 13,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "直线y=2与抛物线y=x²的交点为A、B，若抛物线上存在点C使△ABC为等腰直角三角形，则C点纵坐标为______",
+    "options": [],
+    "knowledge_points": [
+      "几何"
+    ],
+    "user_answer": "df",
+    "correct_answer": "5",
+    "is_correct": false
+  },
+  {
+    "id": 14,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "正方体ABCD-A₁B₁C₁D₁棱长为2，点P在棱AA₁上移动，则三棱锥P-BCD体积的最大值为______",
+    "options": [],
+    "knowledge_points": [
+      "积分"
+    ],
+    "user_answer": "asd",
+    "correct_answer": "4/3",
+    "is_correct": false
+  },
+  {
+    "id": 15,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "已知向量a=(2,1)，b=(1,-1)，若向量c满足|c|=√10且c∥(a+b)，则c的坐标为______",
+    "options": [],
+    "knowledge_points": [
+      "向量运算"
+    ],
+    "user_answer": "gd",
+    "correct_answer": "(3√10/5, -√10/5)或(-3√10/5, √10/5)",
+    "is_correct": false
+  },
+  {
+    "id": 16,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "正四棱锥P-ABCD底面边长为2，侧棱长为3，则其外接球半径为______",
+    "options": [],
+    "knowledge_points": [
+      "立体几何"
+    ],
+    "user_answer": "dgd",
+    "correct_answer": "√14/2",
+    "is_correct": false
+  },
+  {
+    "id": 17,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "数列{aₙ}满足a₁=2，aₙ₊₁=3aₙ-1，则aₙ的通项公式为______",
+    "options": [],
+    "knowledge_points": [
+      "数列递推"
+    ],
+    "user_answer": "gd",
+    "correct_answer": "aₙ=(3ⁿ+1)/2",
+    "is_correct": false
+  },
+  {
+    "id": 18,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "函数f(x)=x³-3ax²+3x在x=1处有极值，则a=______",
+    "options": [],
+    "knowledge_points": [
+      "导数应用"
+    ],
+    "user_answer": "asd",
+    "correct_answer": "1",
+    "is_correct": false
+  },
+  {
+    "id": 19,
+    "type": "essay",
+    "score": 12,
+    "content": "已知函数f(x)=eˣcosx（1）求f(x)的单调递减区间；（2）当x∈[0,π]时，求f(x)的极值",
+    "options": [],
+    "knowledge_points": [
+      "导数应用"
+    ],
+    "user_answer": "fdf",
+    "correct_answer": "(1) [π/4+2kπ,5π/4+2kπ](k∈Z); (2) 极大值e^(π/4)√2/2, 极小值-e^(5π/4)√2/2",
+    "is_correct": false
+  },
+  {
+    "id": 20,
+    "type": "essay",
+    "score": 12,
+    "content": "三棱柱ABC-A₁B₁C₁中，AA₁⊥底面ABC，∠BAC=90°，AB=AC=AA₁=2（1）证明：BC₁⊥A₁B；（2）求二面角A-BC₁-A₁的正弦值",
+    "options": [],
+    "knowledge_points": [
+      "立体几何"
+    ],
+    "user_answer": "asd",
+    "correct_answer": "(1) 证明略; (2) √6/3",
+    "is_correct": false
+  },
+  {
+    "id": 21,
+    "type": "essay",
+    "score": 12,
+    "content": "已知双曲线C:x²/a²-y²/b²=1过点(3,√2)，离心率为√3（1）求C的方程；（2）设直线l:y=kx+2与C交于P,Q两点，若|PQ|=4√3，求k的值",
+    "options": [],
+    "knowledge_points": [
+      "解析几何"
+    ],
+    "user_answer": "fd",
+    "correct_answer": "(1) x²-y²=1; (2) k=±1",
+    "is_correct": false
+  },
+  {
+    "id": 22,
+    "type": "essay",
+    "score": 13,
+    "content": "设函数f(x)=x³-3x²-9x+a（1）讨论f(x)的单调性；（2）若f(x)的图像与x轴有三个交点，求a的取值范围",
+    "options": [],
+    "knowledge_points": [
+      "函数性质"
+    ],
+    "user_answer": "sd",
+    "correct_answer": "(1) 在(-∞,-1)和(3,+∞)单调增，在(-1,3)单调减; (2) -5<a<27",
+    "is_correct": false
+  },
+  {
+    "id": 23,
+    "type": "essay",
+    "score": 13,
+    "content": "某电子元件寿命X（小时）服从N(800,40²)（1）求P(760<X<840)；（2）若要求元件寿命不低于720小时的概率达到99%，应选择什么参数的元件？（已知Φ(1)=0.8413,Φ(2)=0.9772,Φ(2.33)=0.99）",
+    "options": [],
+    "knowledge_points": [
+      "概率统计"
+    ],
+    "user_answer": "das",
+    "correct_answer": "(1) 0.6826; (2) μ≥800+2.33×40=893.2",
+    "is_correct": false
+  }
+]

@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>全国卷模拟试卷</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei|ZCOOL+KuaiLe|Noto+Serif+SC&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #f8f5ed 0%, #d3c7b9 100%);
+      font-family: 'Noto Serif SC', 'ZCOOL XiaoWei', 'ZCOOL KuaiLe', serif;
+      color: #4e3d28;
+      padding-bottom: 60px;
+    }
+    .container {
+      max-width: 740px;
+      margin: 40px auto 0 auto;
+      background: rgba(255,255,255,0.88);
+      border-radius: 24px;
+      box-shadow: 0px 6px 24px rgba(120, 90, 40, 0.13);
+      padding: 38px 32px;
+      position: relative;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    .header h1 {
+      font-family: 'ZCOOL XiaoWei', 'Noto Serif SC', serif;
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+      letter-spacing: 2px;
+    }
+    .subtitle {
+      font-size: 1.13rem;
+      color: #9c8b6d;
+      letter-spacing: 2px;
+      margin-bottom: 0;
+    }
+    .question {
+      margin-bottom: 32px;
+      background: rgba(253,247,235,0.82);
+      border-radius: 16px;
+      padding: 22px 18px 12px 18px;
+      border-left: 6px solid #c4b295;
+      box-shadow: 0 2px 12px rgba(195,178,149,0.08);
+      transition: border-color 0.2s;
+    }
+    .question.wrong {
+      border-left: 6px solid #e17474;
+      background: rgba(255, 235, 235, 0.89);
+    }
+    .question.right {
+      border-left: 6px solid #a9d49b;
+      background: rgba(235, 255, 239, 0.87);
+    }
+    .q-title {
+      font-size: 1.08rem;
+      margin-bottom: 12px;
+      font-weight: 600;
+      font-family: 'ZCOOL XiaoWei', 'Noto Serif SC', serif;
+    }
+    .options {
+      margin-bottom: 7px;
+    }
+    .options label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: color 0.2s;
+      border-radius: 6px;
+      padding: 3px 0 3px 4px;
+    }
+    .options input[type=radio]:checked + span {
+      color: #c77c4b;
+      font-weight: bold;
+    }
+    .fill-blank {
+      margin-bottom: 10px;
+    }
+    .fill-blank input {
+      padding: 7px 10px;
+      border: 1.5px solid #bfa974;
+      border-radius: 7px;
+      font-size: 1rem;
+      background: #fdf6e4;
+      font-family: inherit;
+      outline: none;
+      margin-right: 7px;
+      transition: border 0.2s;
+    }
+    .fill-blank input:focus {
+      border: 1.5px solid #c77c4b;
+      background: #fffbe6;
+    }
+    .knowledge {
+      margin-top: 9px;
+    }
+    .knowledge span {
+      display: inline-block;
+      background: #ede4d2;
+      color: #8b7655;
+      font-size: 0.97rem;
+      border-radius: 3px;
+      padding: 2px 8px;
+      margin-right: 7px;
+      margin-bottom: 2px;
+      font-family: 'ZCOOL KuaiLe','Noto Serif SC',serif;
+    }
+    .correct-answer {
+      color: #c45555;
+      font-size: 1rem;
+      margin-top: 6px;
+      font-family: 'Noto Serif SC', serif;
+      letter-spacing: 1px;
+    }
+    .right-answer {
+      color: #4e8d28;
+      font-size: 1rem;
+      margin-top: 6px;
+      font-family: 'Noto Serif SC', serif;
+      letter-spacing: 1px;
+    }
+    .btns {
+      text-align: center;
+      margin-top: 33px;
+    }
+    button {
+      background: linear-gradient(93deg,#c7a26c 0%,#e5b98a 100%);
+      color: #fff;
+      font-family: 'Noto Serif SC',serif;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      padding: 11px 32px;
+      margin: 0 10px;
+      cursor: pointer;
+      transition: background 0.2s, box-shadow 0.2s;
+      box-shadow: 0 1px 8px #e2d2b6a0;
+    }
+    button:active {
+      background: linear-gradient(93deg,#b29166 0%,#d0a16b 100%);
+    }
+    .result {
+      text-align: center;
+      margin-top: 22px;
+      font-size: 1.19rem;
+      background: rgba(255,255,255,0.65);
+      color: #7a5a3d;
+      letter-spacing: 1px;
+      border-radius: 9px;
+      padding: 16px;
+      font-family: 'ZCOOL XiaoWei', 'Noto Serif SC', serif;
+    }
+    .subject-selector {
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    .subject-selector select {
+      padding: 8px 15px;
+      border: 2px solid #c4b295;
+      border-radius: 8px;
+      background: #fdf6e4;
+      font-family: inherit;
+      font-size: 1.05rem;
+      color: #4e3d28;
+      cursor: pointer;
+      outline: none;
+      transition: border 0.2s;
+    }
+    .subject-selector select:focus {
+      border: 2px solid #c77c4b;
+    }
+    @media (max-width: 800px) {
+      .container { padding: 22px 6vw; }
+    }
+    @media (max-width: 450px) {
+      .header h1 { font-size: 1.36rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>2025年全国卷模拟试卷</h1>
+    <p class="subtitle">诗意流转，见证你的学习之路</p>
+  </div>
+  
+  <div class="subject-selector">
+    <select id="subjectSelect" onchange="changeSubject()">
+      <option value="">随机科目</option>
+      <option value="math">数学</option>
+      <option value="chinese">语文</option>
+      <option value="english">英语</option>
+      <option value="geography">地理</option>
+      <option value="politics">政治</option>
+      <option value="history">历史</option>
+      <option value="chemistry">化学</option>
+      <option value="biology">生物</option>
+      <option value="physics">物理</option>
+    </select>
+  </div>
+  
+  <form id="examForm" autocomplete="off">
+    <div style="text-align:center;padding:40px;color:#bfa974;" id="loading">正在加载题目，请稍候...</div>
+  </form>
+  <div class="btns">
+    <button type="button" onclick="submitAnswers()" id="submitBtn">提交答案</button>
+    <button type="button" onclick="resetAnswers()">重做</button>
+  </div>
+  <div class="result" id="resultBox" style="display:none"></div>
+</div>
+<script>
+let questions = [];
+let submitted = false;
+let currentSubject = '';
+
+function renderQuestions() {
+  const form = document.getElementById('examForm');
+  if (!form) return;
+  
+  form.innerHTML = '';
+  questions.forEach((q, idx) => {
+    const block = document.createElement('div');
+    block.className = 'question';
+    block.id = 'q' + q.id;
+    // 题干
+    const qTitle = document.createElement('div');
+    qTitle.className = 'q-title';
+    qTitle.innerHTML = `<span>${idx+1}.</span> ${q.content} <span style="font-size:0.97rem;color:#bfa974;padding-left:8px;">(${q.type==="choice"?"单选题":"填空题"})</span>`;
+    block.appendChild(qTitle);
+
+    // 选项或填空
+    if (q.type === 'choice') {
+      const optDiv = document.createElement('div');
+      optDiv.className = 'options';
+      q.options.forEach(opt => {
+        const label = document.createElement('label');
+        label.innerHTML = `<input type="radio" name="q${q.id}" value="${opt[0]}" /> <span>${opt}</span>`;
+        optDiv.appendChild(label);
+      });
+      block.appendChild(optDiv);
+    } else {
+      const fillDiv = document.createElement('div');
+      fillDiv.className = 'fill-blank';
+      fillDiv.innerHTML = `<input type="text" name="q${q.id}" maxlength="40" placeholder="请填写你的答案" />`;
+      block.appendChild(fillDiv);
+    }
+    // 知识点
+    const knowDiv = document.createElement('div');
+    knowDiv.className = 'knowledge';
+    knowDiv.innerHTML = q.knowledge_points.map(k=>`<span>${k}</span>`).join('');
+    block.appendChild(knowDiv);
+
+    // 答案提示
+    const caDiv = document.createElement('div');
+    caDiv.className = 'correct-answer';
+    caDiv.style.display = 'none';
+    caDiv.id = 'ans'+q.id;
+    caDiv.innerHTML = '✧ 正确答案：<b>' + q.correct_answer + '</b>';
+    block.appendChild(caDiv);
+
+    form.appendChild(block);
+  });
+  
+  // 更新标题
+  updateTitle();
+}
+
+function updateTitle() {
+  const subjectNames = {
+    'math': '数学',
+    'chinese': '语文',
+    'english': '英语',
+    'geography': '地理',
+    'politics': '政治',
+    'history': '历史',
+    'chemistry': '化学',
+    'biology': '生物',
+    'physics': '物理',
+    '': '随机科目'
+  };
+  
+  const subjectName = subjectNames[currentSubject] || '随机科目';
+  document.querySelector('.header h1').innerText = `2025年全国卷${subjectName}模拟试卷`;
+}
+
+function changeSubject() {
+  const select = document.getElementById('subjectSelect');
+  currentSubject = select.value;
+  submitted = false;
+  document.getElementById('resultBox').style.display = "none";
+  document.getElementById('submitBtn').disabled = false;
+  fetchQuestions();
+}
+
+function fetchQuestions() {
+  const loadingElement = document.getElementById('loading');
+  if (loadingElement) {
+    loadingElement.innerText = '正在加载题目，请稍候...';
+    loadingElement.style.display = 'block';
+  }
+  
+  document.getElementById('examForm').innerHTML = '<div style="text-align:center;padding:40px;color:#bfa974;" id="loading">正在加载题目，请稍候...</div>';
+  
+  let url = '/exam';
+  if (currentSubject) {
+    url += `?subject=${currentSubject}`;
+  }
+  
+  console.log('Fetching questions from:', url);
+  
+  fetch(url)
+    .then(res => {
+      if (!res.ok) {
+        throw new Error(`HTTP error! Status: ${res.status}`);
+      }
+      return res.json();
+    })
+    .then(data => {
+      if (data.error) {
+        document.getElementById('examForm').innerHTML = `<div style="color:red;text-align:center">${data.error}</div>`;
+        return;
+      }
+      questions = data.questions || [];
+      if (questions.length > 0) {
+        renderQuestions();
+        const newLoadingElement = document.getElementById('loading');
+        if (newLoadingElement) {
+          newLoadingElement.style.display = 'none';
+        }
+      } else {
+        document.getElementById('examForm').innerHTML = '<div style="color:red;text-align:center">题库中没有题目</div>';
+      }
+    })
+    .catch(e => {
+      console.error('Fetch error:', e);
+      document.getElementById('examForm').innerHTML = `<div style="color:red;text-align:center">题库加载失败: ${e.message}</div>`;
+    });
+}
+
+function submitAnswers() {
+  if (submitted) return;
+  let user_answers = [];
+  let total = questions.length;
+  let answered = 0;
+  questions.forEach(q => {
+    let val = '';
+    if (q.type === 'choice') {
+      const sel = document.querySelector(`input[name="q${q.id}"]:checked`);
+      val = sel ? sel.value.trim() : '';
+    } else {
+      const inp = document.querySelector(`input[name="q${q.id}"]`);
+      val = inp.value.trim();
+    }
+    if(val) answered++;
+    user_answers.push(val);
+  });
+  if(answered < total) {
+    document.getElementById('resultBox').style.display = "block";
+    document.getElementById('resultBox').innerHTML = '请完成所有题目后再提交哦～';
+    return;
+  }
+  
+  // 提交后端判题
+  let url = '/submit';
+  if (currentSubject) {
+    url += `?subject=${currentSubject}`;
+  }
+  
+  fetch(url, {
+    method: 'POST',
+    headers: {'Content-Type':'application/json'},
+    body: JSON.stringify(user_answers)
+  }).then(res=>res.json()).then(result=>{
+    if(result.error){
+      document.getElementById('resultBox').style.display = "block";
+      document.getElementById('resultBox').innerHTML = result.error;
+      return;
+    }
+    submitted = true;
+    // 展示每题结果
+    result.results.forEach(qr => {
+      let block = document.getElementById('q'+qr.id);
+      let caDiv = document.getElementById('ans'+qr.id);
+      block.classList.remove('wrong','right');
+      caDiv.style.display = 'none';
+      if(qr.is_correct) {
+        block.classList.add('right');
+      } else {
+        block.classList.add('wrong');
+        caDiv.style.display = 'block';
+        caDiv.innerHTML = '✧ 正确答案：<b>' + qr.correct_answer + '</b>，你的答案：<span style="color:#c77c4b">' + qr.user_answer + '</span>';
+      }
+      // 禁用答题输入
+      let inputs = block.querySelectorAll('input');
+      inputs.forEach(inp=>inp.disabled=true);
+    });
+    // 结果汇总
+    document.getElementById('resultBox').style.display = "block";
+    if(result.wrong_count === 0){
+      document.getElementById('resultBox').innerHTML = '满分！你就是学习的诗人！';
+    }else{
+      document.getElementById('resultBox').innerHTML = `共${result.total}题，答对 <b>${result.right_count}</b> 题<br>错题已高亮，正确答案已显示。<br>文艺如你，仍需努力！`;
+    }
+    document.getElementById('submitBtn').disabled = true;
+  });
+}
+
+function resetAnswers() {
+  submitted = false;
+  fetchQuestions();
+  document.getElementById('resultBox').style.display = "none";
+  document.getElementById('submitBtn').disabled = false;
+}
+
+// 加载可用科目
+function loadAvailableSubjects() {
+  fetch('/subjects')
+    .then(res => res.json())
+    .then(data => {
+      if (data.subjects && data.subjects.length > 0) {
+        const select = document.getElementById('subjectSelect');
+        // 保留第一个"随机科目"选项
+        const defaultOption = select.options[0];
+        select.innerHTML = '';
+        select.appendChild(defaultOption);
+        
+        // 添加从服务器获取的科目
+        data.subjects.forEach(subject => {
+          const option = document.createElement('option');
+          option.value = subject;
+          option.textContent = getSubjectDisplayName(subject);
+          select.appendChild(option);
+        });
+      }
+    })
+    .catch(e => {
+      console.error('加载科目失败', e);
+      // 显示错误信息
+      document.getElementById('examForm').innerHTML = '<div style="color:red;text-align:center">加载科目失败，请刷新页面重试</div>';
+    });
+}
+
+function getSubjectDisplayName(subject) {
+  const subjectNames = {
+    'math': '数学',
+    'history': '历史',
+    'chinese': '语文',
+    'english': '英语',
+    'geography': '地理',
+    'politics': '政治',
+    'chemistry': '化学',
+    'biology': '生物',
+    'physics': '物理'
+  };
+  return subjectNames[subject] || subject;
+}
+
+window.onload = function() {
+  loadAvailableSubjects();
+  fetchQuestions();
+};
+</script>
+</body>
+</html>

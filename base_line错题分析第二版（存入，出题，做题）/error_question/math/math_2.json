@@ -1,0 +1,291 @@
+[
+  {
+    "id": 1,
+    "type": "choice",
+    "score": 5,
+    "content": "某程序框图执行后输出的S值为一个等差数列的第10项，已知该数列首项为3，公差为2，则输出结果为（　　）",
+    "options": [
+      "A. 21",
+      "B. 23",
+      "C. 25",
+      "D. 27"
+    ],
+    "knowledge_points": [
+      "数学基础知识"
+    ],
+    "user_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 2,
+    "type": "choice",
+    "score": 5,
+    "content": "若复数z满足|z+2i|=|z-3|，则z在复平面上的轨迹是（　　）",
+    "options": [
+      "A. 直线",
+      "B. 圆",
+      "C. 抛物线",
+      "D. 双曲线"
+    ],
+    "knowledge_points": [
+      "复数"
+    ],
+    "user_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 3,
+    "type": "choice",
+    "score": 5,
+    "content": "从编号1-100的卡片中随机抽取5张，恰好包含3张偶数编号卡片的概率是（　　）",
+    "options": [
+      "A. C(50,3)C(50,2)/C(100,5)",
+      "B. C(50,3)/C(100,5)",
+      "C. C(100,3)/C(100,5)",
+      "D. 3/5"
+    ],
+    "knowledge_points": [
+      "概率"
+    ],
+    "user_answer": "C",
+    "correct_answer": "A",
+    "is_correct": false
+  },
+  {
+    "id": 4,
+    "type": "choice",
+    "score": 5,
+    "content": "极坐标方程ρ=4sinθ表示的曲线与极轴平行的切线有（　　）条",
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 4"
+    ],
+    "knowledge_points": [
+      "导数",
+      "几何"
+    ],
+    "user_answer": "A",
+    "correct_answer": "C",
+    "is_correct": false
+  },
+  {
+    "id": 5,
+    "type": "choice",
+    "score": 5,
+    "content": "已知函数f(x)在区间[0,4]的图像有3个极大值点，则方程f(x)=c（c为常数）在该区间最多可能有（　　）个实数解",
+    "options": [
+      "A. 3",
+      "B. 4",
+      "C. 5",
+      "D. 6"
+    ],
+    "knowledge_points": [
+      "函数"
+    ],
+    "user_answer": "B",
+    "correct_answer": "D",
+    "is_correct": false
+  },
+  {
+    "id": 6,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "等比数列{aₙ}中，a₃=12，a₅=48，则其前7项和S₇=______",
+    "options": [],
+    "knowledge_points": [
+      "数列"
+    ],
+    "user_answer": "df",
+    "correct_answer": "381",
+    "is_correct": false
+  },
+  {
+    "id": 7,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "在△ABC中，若cosA+cosB=√2sin(C/2)，则角C=______度",
+    "options": [],
+    "knowledge_points": [
+      "三角函数"
+    ],
+    "user_answer": "df",
+    "correct_answer": "45",
+    "is_correct": false
+  },
+  {
+    "id": 8,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "函数f(x)=x³-6x²+9x的导函数零点横坐标为______",
+    "options": [],
+    "knowledge_points": [
+      "导数"
+    ],
+    "user_answer": "df",
+    "correct_answer": "1,3",
+    "is_correct": false
+  },
+  {
+    "id": 9,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "点(2,-1,3)到平面2x-y+2z=5的距离为______",
+    "options": [],
+    "knowledge_points": [
+      "空间几何"
+    ],
+    "user_answer": "df",
+    "correct_answer": "3",
+    "is_correct": false
+  },
+  {
+    "id": 10,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "二次函数f(x)=x²-4x+c在区间[0,3]的最大值与最小值之和为6，则c=______",
+    "options": [],
+    "knowledge_points": [
+      "函数"
+    ],
+    "user_answer": "sd",
+    "correct_answer": "4",
+    "is_correct": false
+  },
+  {
+    "id": 11,
+    "type": "essay",
+    "score": 12,
+    "content": "已知函数f(x)=x³-6x²+9x+2，（1）求函数的单调区间；（2）求函数在区间[-1,4]的极值",
+    "options": [],
+    "knowledge_points": [
+      "函数",
+      "导数"
+    ],
+    "user_answer": "gd",
+    "correct_answer": "(1)增区间：(-∞,1]∪[3,+∞)；减区间：[1,3] (2)极大值f(1)=6，极小值f(3)=2",
+    "is_correct": false
+  },
+  {
+    "id": 12,
+    "type": "essay",
+    "score": 12,
+    "content": "在△ABC中，证明：若sin²A+sin²B=sin²C，则△ABC为直角三角形",
+    "options": [],
+    "knowledge_points": [
+      "三角函数"
+    ],
+    "user_answer": "gda",
+    "correct_answer": "证明过程略",
+    "is_correct": false
+  },
+  {
+    "id": 13,
+    "type": "essay",
+    "score": 12,
+    "content": "求点P(3,-2,5)到平面x-2y+z=4的距离，并判断该点与平面的位置关系",
+    "options": [],
+    "knowledge_points": [
+      "空间几何"
+    ],
+    "user_answer": "sdfg",
+    "correct_answer": "距离为√6，点在平面同侧",
+    "is_correct": false
+  },
+  {
+    "id": 14,
+    "type": "essay",
+    "score": 12,
+    "content": "已知函数f(x)=ax²+bx+1在[-2,2]的最大值为5，最小值为-3，求a,b的值",
+    "options": [],
+    "knowledge_points": [
+      "函数"
+    ],
+    "user_answer": "gd",
+    "correct_answer": "a=1,b=0或a=-2,b=0",
+    "is_correct": false
+  },
+  {
+    "id": 15,
+    "type": "essay",
+    "score": 12,
+    "content": "数列{aₙ}满足a₁=2，aₙ₊₁=3aₙ-4，求通项公式及前n项和Sₙ",
+    "options": [],
+    "knowledge_points": [
+      "数列"
+    ],
+    "user_answer": "df",
+    "correct_answer": "aₙ=3ⁿ⁻¹+1；Sₙ=(3ⁿ-1)/2+n",
+    "is_correct": false
+  },
+  {
+    "id": 17,
+    "type": "choice",
+    "score": 5,
+    "content": "数列{aₙ}前n项和Sₙ=3n²-n，则a₁₀的值为（　　）",
+    "options": [
+      "A. 56",
+      "B. 57",
+      "C. 58",
+      "D. 59"
+    ],
+    "knowledge_points": [
+      "数列"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 18,
+    "type": "choice",
+    "score": 5,
+    "content": "函数f(x)=x³-12x的导函数f'(x)在区间(0,4)内的零点个数为（　　）",
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 3"
+    ],
+    "knowledge_points": [
+      "导数"
+    ],
+    "user_answer": "D",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 19,
+    "type": "choice",
+    "score": 5,
+    "content": "下列几何命题中，属于公理的是（　　）",
+    "options": [
+      "A. 平行线同位角相等",
+      "B. 两点确定一条直线",
+      "C. 三角形内角和为180°",
+      "D. 圆的切线垂直于半径"
+    ],
+    "knowledge_points": [
+      "数学基础知识"
+    ],
+    "user_answer": "C",
+    "correct_answer": "B",
+    "is_correct": false
+  },
+  {
+    "id": 20,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "二项式(2x-1)⁷展开式中x³项的系数为______",
+    "options": [],
+    "knowledge_points": [
+      "数学基础知识"
+    ],
+    "user_answer": "dafs",
+    "correct_answer": "-560",
+    "is_correct": false
+  }
+]

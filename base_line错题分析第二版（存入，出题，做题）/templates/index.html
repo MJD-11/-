@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>错题文档管理系统</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <link href="/static/css/style.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #3b82f6;
+            --primary-hover: #2563eb;
+            --secondary-color: #f3f4f6;
+            --text-color: #1f2937;
+            --light-text: #6b7280;
+            --border-color: #e5e7eb;
+            --success-color: #10b981;
+            --error-color: #ef4444;
+            --warning-color: #f59e0b;
+            --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        
+        body {
+            font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            background-color: #f9fafb;
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+        }
+        
+        .header h1 {
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header p {
+            color: var(--light-text);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .nav-tabs {
+            border: none;
+            margin-bottom: 1.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+        
+        .nav-tabs .nav-link {
+            border: none;
+            border-radius: 8px;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            color: var(--light-text);
+            background-color: transparent;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-tabs .nav-link:hover {
+            color: var(--primary-color);
+            background-color: rgba(59, 130, 246, 0.05);
+        }
+        
+        .nav-tabs .nav-link.active {
+            color: var(--primary-color);
+            background-color: rgba(59, 130, 246, 0.1);
+            border: none;
+        }
+        
+        .nav-tabs .nav-link i {
+            margin-right: 0.5rem;
+        }
+        
+        .tab-content {
+            background: transparent;
+            border: none;
+            padding: 0;
+        }
+        
+        .card {
+            border: none;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            overflow: hidden;
+            margin-bottom: 1.5rem;
+            background-color: white;
+        }
+        
+        .card-header {
+            background-color: white;
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.25rem 1.5rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .card-header h5 {
+            margin: 0;
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: var(--text-color);
+        }
+        
+        .card-header i {
+            margin-right: 0.75rem;
+            color: var(--primary-color);
+            font-size: 1.25rem;
+        }
+        
+        .card-body {
+            padding: 1.5rem;
+        }
+        
+        .form-label {
+            font-weight: 500;
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .form-control {
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            padding: 0.75rem 1rem;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .form-control:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+        }
+        
+        .btn {
+            border-radius: 8px;
+            padding: 0.75rem 1.5rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--primary-hover);
+            border-color: var(--primary-hover);
+            transform: translateY(-2px);
+        }
+        
+        .btn-outline-primary {
+            color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        
+        .btn-outline-primary:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .btn-danger {
+            background-color: var(--error-color);
+            border-color: var(--error-color);
+        }
+        
+        .btn-danger:hover {
+            background-color: #dc2626;
+            border-color: #dc2626;
+            transform: translateY(-2px);
+        }
+        
+        .alert {
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1rem;
+            border: none;
+        }
+        
+        .alert-success {
+            background-color: rgba(16, 185, 129, 0.1);
+            color: var(--success-color);
+        }
+        
+        .alert-danger {
+            background-color: rgba(239, 68, 68, 0.1);
+            color: var(--error-color);
+        }
+        
+        .document-card {
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .document-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+        
+        .document-content {
+            background-color: #f9fafb;
+            padding: 1.25rem;
+            border-radius: 8px;
+            font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+            font-size: 0.9rem;
+            max-height: 350px;
+            overflow-y: auto;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        .spinner-border {
+            color: var(--primary-color);
+        }
+        
+        .search-box {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .file-upload-area {
+            border: 2px dashed var(--border-color);
+            border-radius: 8px;
+            padding: 2rem;
+            text-align: center;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .file-upload-area:hover {
+            border-color: var(--primary-color);
+        }
+        
+        .file-upload-area i {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            display: block;
+        }
+        
+        .file-upload-area p {
+            color: var(--light-text);
+            margin-bottom: 0;
+        }
+        
+        .search-results {
+            margin-top: 1.5rem;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 3rem 0;
+        }
+        
+        .empty-state i {
+            font-size: 3rem;
+            color: var(--light-text);
+            margin-bottom: 1rem;
+        }
+        
+        .empty-state p {
+            color: var(--light-text);
+            font-size: 1.1rem;
+        }
+        
+        .badge {
+            background-color: rgba(59, 130, 246, 0.1);
+            color: var(--primary-color);
+            font-weight: 500;
+            padding: 0.35rem 0.75rem;
+            border-radius: 6px;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .document-meta {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            color: var(--light-text);
+            font-size: 0.9rem;
+        }
+        
+        .document-meta i {
+            margin-right: 0.5rem;
+        }
+        
+        .document-meta span {
+            margin-right: 1rem;
+        }
+        
+        .modal-content {
+            border: none;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+        }
+        
+        .modal-header {
+            border-bottom: 1px solid var(--border-color);
+            padding: 1.25rem 1.5rem;
+        }
+        
+        .modal-header .modal-title {
+            font-weight: 600;
+            color: var(--text-color);
+        }
+        
+        .modal-body {
+            padding: 1.5rem;
+        }
+        
+        .modal-footer {
+            border-top: 1px solid var(--border-color);
+            padding: 1.25rem 1.5rem;
+        }
+        
+        .warning-icon {
+            color: var(--warning-color);
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .actions-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>错题文档管理系统</h1>
+            <p>高效管理和检索您的错题文档</p>
+        </div>
+        
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="upload-tab" data-bs-toggle="tab" data-bs-target="#upload" type="button" role="tab" aria-controls="upload" aria-selected="true">
+                    <i class="bi bi-cloud-upload"></i>上传错题
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="search-tab" data-bs-toggle="tab" data-bs-target="#search" type="button" role="tab" aria-controls="search" aria-selected="false">
+                    <i class="bi bi-search"></i>搜索错题
+                </button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="false">
+                    <i class="bi bi-collection"></i>所有错题
+                </button>
+            </li>
+        </ul>
+        
+        <div class="tab-content" id="myTabContent">
+            <!-- 上传错题 -->
+            <div class="tab-pane fade show active" id="upload" role="tabpanel" aria-labelledby="upload-tab">
+                <div class="row">
+                    <!-- 上传单个文件 -->
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="bi bi-file-earmark-text"></i>
+                                <h5>上传JSON文件</h5>
+                            </div>
+                            <div class="card-body">
+                                <form id="uploadFileForm">
+                                    <div class="file-upload-area">
+                                        <i class="bi bi-file-earmark-arrow-up"></i>
+                                        <p>选择JSON文件或拖放到此处</p>
+                                        <input class="form-control d-none" type="file" id="jsonFile" accept=".json" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="fileKeywords" class="form-label">备注（可选，用逗号分隔）</label>
+                                        <input type="text" class="form-control" id="fileKeywords" placeholder="例如：数学,加法,减法">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <i class="bi bi-cloud-upload"></i> 上传文件
+                                    </button>
+                                </form>
+                                <div class="alert alert-success mt-3" id="fileUploadSuccess" style="display: none;"></div>
+                                <div class="alert alert-danger mt-3" id="fileUploadError" style="display: none;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 上传文件夹 -->
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="bi bi-folder2-open"></i>
+                                <h5>上传文件夹中的JSON文件</h5>
+                            </div>
+                            <div class="card-body">
+                                <form id="uploadDirectoryForm">
+                                    <div class="file-upload-area">
+                                        <i class="bi bi-folder-plus"></i>
+                                        <p>选择文件夹</p>
+                                        <input class="form-control d-none" type="file" id="jsonDirectory" webkitdirectory directory multiple>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="directoryKeywords" class="form-label">备注（可选，用逗号分隔）</label>
+                                        <input type="text" class="form-control" id="directoryKeywords" placeholder="例如：数学,加法,减法">
+                                        <div class="form-text">系统会自动筛选并上传文件夹中的所有JSON文件</div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <i class="bi bi-cloud-upload"></i> 上传文件夹
+                                    </button>
+                                </form>
+                                <div class="alert alert-success mt-3" id="directoryUploadSuccess" style="display: none;"></div>
+                                <div class="alert alert-danger mt-3" id="directoryUploadError" style="display: none;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 上传历史错题 -->
+                    <div class="col-md-12 mt-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <i class="bi bi-journal-text"></i>
+                                <h5>上传历史错题</h5>
+                            </div>
+                            <div class="card-body">
+                                <form id="uploadHistoryForm">
+                                    <div class="row g-3">
+                                        <div class="col-md-8">
+                                            <label for="historySubject" class="form-label">选择科目</label>
+                                            <select class="form-select" id="historySubject">
+                                                <option value="">全部科目</option>
+                                                <!-- 科目选项将通过JavaScript动态加载 -->
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="historyKeywords" class="form-label">备注（可选）</label>
+                                            <input type="text" class="form-control" id="historyKeywords" placeholder="关键词，用逗号分隔">
+                                        </div>
+                                    </div>
+                                    <div class="mt-3">
+                                        <p class="mb-2">
+                                            <i class="bi bi-info-circle text-primary me-1"></i>
+                                            此功能将上传 /root/error_question 目录中的历史错题文件
+                                        </p>
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="bi bi-upload"></i> 上传历史错题
+                                        </button>
+                                    </div>
+                                </form>
+                                <div class="alert alert-success mt-3" id="historyUploadSuccess" style="display: none;"></div>
+                                <div class="alert alert-danger mt-3" id="historyUploadError" style="display: none;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 搜索错题 -->
+            <div class="tab-pane fade" id="search" role="tabpanel" aria-labelledby="search-tab">
+                <div class="search-box">
+                    <form id="searchForm">
+                        <div class="row g-3 align-items-end">
+                            <div class="col-md-8">
+                                <label for="searchKeyword" class="form-label">搜索内容</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                                    <input type="text" class="form-control" id="searchKeyword" placeholder="输入内容搜索" required>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="searchLimit" class="form-label">最大结果数</label>
+                                <input type="number" class="form-control" id="searchLimit" value="10" min="1" max="100">
+                            </div>
+                            <div class="col-md-2">
+                                <button class="btn btn-primary w-100" type="submit">搜索</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="loading" id="searchLoading">
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">加载中...</span>
+                    </div>
+                    <p>搜索中，请稍候...</p>
+                </div>
+                
+                <div class="search-results" id="searchResults">
+                    <!-- 搜索结果将在这里显示 -->
+                </div>
+            </div>
+            
+            <!-- 所有错题 -->
+            <div class="tab-pane fade" id="all" role="tabpanel" aria-labelledby="all-tab">
+                <div class="actions-bar">
+                    <div>
+                        <h4>所有错题文档</h4>
+                    </div>
+                    <div class="d-flex gap-2">
+                        <button id="loadAllDocuments" class="btn btn-primary">
+                            <i class="bi bi-arrow-repeat"></i> 刷新文档
+                        </button>
+                        <button id="cleanupButton" class="btn btn-danger">
+                            <i class="bi bi-trash"></i> 清理所有数据
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="loading" id="allDocsLoading">
+                    <div class="spinner-border" role="status">
+                        <span class="visually-hidden">加载中...</span>
+                    </div>
+                    <p>加载中，请稍候...</p>
+                </div>
+                
+                <div id="allDocuments">
+                    <!-- 所有文档将在这里显示 -->
+                </div>
+                
+                <!-- 清理确认对话框 -->
+                <div class="modal fade" id="cleanupModal" tabindex="-1" aria-labelledby="cleanupModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="cleanupModalLabel">确认清理所有数据</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body text-center">
+                                <i class="bi bi-exclamation-triangle warning-icon"></i>
+                                <p>您确定要清理所有错题数据吗？此操作将删除所有JSON文件和向量数据库中的记录，且<strong>无法恢复</strong>。</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+                                <button type="button" class="btn btn-danger" id="confirmCleanup">确认清理</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 清理结果提示 -->
+                <div class="alert alert-success" id="cleanupSuccess" style="display: none;"></div>
+                <div class="alert alert-danger" id="cleanupError" style="display: none;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // 让文件上传区域可点击
+            const fileUploadAreas = document.querySelectorAll('.file-upload-area');
+            
+            fileUploadAreas.forEach(area => {
+                const input = area.querySelector('input[type="file"]');
+                
+                area.addEventListener('click', () => {
+                    input.click();
+                });
+                
+                input.addEventListener('change', () => {
+                    if(input.files.length) {
+                        if(input.hasAttribute('webkitdirectory')) {
+                            area.querySelector('p').textContent = `已选择文件夹（${input.files.length} 个文件）`;
+                        } else {
+                            area.querySelector('p').textContent = `已选择: ${input.files[0].name}`;
+                        }
+                    }
+                });
+                
+                // 拖放功能
+                area.addEventListener('dragover', (e) => {
+                    e.preventDefault();
+                    area.style.borderColor = 'var(--primary-color)';
+                    area.style.backgroundColor = 'rgba(59, 130, 246, 0.05)';
+                });
+                
+                area.addEventListener('dragleave', () => {
+                    area.style.borderColor = 'var(--border-color)';
+                    area.style.backgroundColor = 'transparent';
+                });
+                
+                area.addEventListener('drop', (e) => {
+                    e.preventDefault();
+                    area.style.borderColor = 'var(--border-color)';
+                    area.style.backgroundColor = 'transparent';
+                    
+                    if(input.hasAttribute('webkitdirectory')) {
+                        // 不处理，因为无法通过拖放选择文件夹
+                    } else if(e.dataTransfer.files.length) {
+                        input.files = e.dataTransfer.files;
+                        area.querySelector('p').textContent = `已选择: ${e.dataTransfer.files[0].name}`;
+                    }
+                });
+            });
+            
+            // 清理数据功能
+            const cleanupButton = document.getElementById('cleanupButton');
+            const confirmCleanupButton = document.getElementById('confirmCleanup');
+            const cleanupModal = new bootstrap.Modal(document.getElementById('cleanupModal'));
+            const cleanupSuccess = document.getElementById('cleanupSuccess');
+            const cleanupError = document.getElementById('cleanupError');
+            
+            if (cleanupButton) {
+                cleanupButton.addEventListener('click', () => {
+                    cleanupModal.show();
+                });
+            }
+            
+            if (confirmCleanupButton) {
+                confirmCleanupButton.addEventListener('click', () => {
+                    // 禁用按钮并显示加载状态
+                    confirmCleanupButton.disabled = true;
+                    confirmCleanupButton.innerHTML = '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> 清理中...';
+                    
+                    // 调用清理API
+                    fetch('/cleanup/', {
+                        method: 'POST'
+                    })
+                    .then(response => {
+                        if (!response.ok) {
+                            return response.json().then(data => {
+                                throw new Error(data.detail || '清理数据失败');
+                            });
+                        }
+                        return response.json();
+                    })
+                    .then(data => {
+                        // 隐藏模态框
+                        cleanupModal.hide();
+                        
+                        // 显示成功消息
+                        cleanupSuccess.innerHTML = `<i class="bi bi-check-circle"></i> ${data.message}`;
+                        cleanupSuccess.style.display = 'block';
+                        
+                        // 清空文档列表
+                        const allDocuments = document.getElementById('allDocuments');
+                        if (allDocuments) {
+                            allDocuments.innerHTML = `
+                                <div class="empty-state">
+                                    <i class="bi bi-folder"></i>
+                                    <p>没有找到任何文档</p>
+                                </div>
+                            `;
+                        }
+                        
+                        // 3秒后隐藏成功消息
+                        setTimeout(() => {
+                            cleanupSuccess.style.display = 'none';
+                        }, 5000);
+                    })
+                    .catch(error => {
+                        // 隐藏模态框
+                        cleanupModal.hide();
+                        
+                        // 显示错误消息
+                        cleanupError.innerHTML = `<i class="bi bi-exclamation-triangle"></i> 清理失败: ${error.message}`;
+                        cleanupError.style.display = 'block';
+                        
+                        // 3秒后隐藏错误消息
+                        setTimeout(() => {
+                            cleanupError.style.display = 'none';
+                        }, 5000);
+                    })
+                    .finally(() => {
+                        // 恢复按钮状态
+                        confirmCleanupButton.disabled = false;
+                        confirmCleanupButton.innerHTML = '确认清理';
+                    });
+                });
+            }
+        });
+    </script>
+    <script src="/static/js/main.js"></script>
+</body>
+</html> 

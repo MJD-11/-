@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "type": "choice",
+    "score": 5,
+    "content": "在pH=1的酸性溶液中，下列离子组能稳定存在且无色的是：",
+    "options": [
+      "A. K⁺、MnO₄⁻、SO₄²⁻",
+      "B. Na⁺、Cl⁻、NO₃⁻",
+      "C. Cu²⁺、Cl⁻、SO₄²⁻",
+      "D. Ba²⁺、OH⁻、NO₃⁻"
+    ],
+    "knowledge_points": [
+      "离子共存",
+      "溶液化学"
+    ],
+    "user_answer": "",
+    "correct_answer": "B"
+  },
+  {
+    "id": 2,
+    "type": "choice",
+    "score": 5,
+    "content": "设NA表示阿伏伽德罗常数，关于1 mol氦气的叙述错误的是：",
+    "options": [
+      "A. 含有NA个氦原子",
+      "B. 标准状况下体积约为22.4 L",
+      "C. 质量约为4 g",
+      "D. 含有2NA个电子"
+    ],
+    "knowledge_points": [
+      "阿伏伽德罗常数",
+      "物质的量"
+    ],
+    "user_answer": "",
+    "correct_answer": "D"
+  },
+  {
+    "id": 3,
+    "type": "choice",
+    "score": 5,
+    "content": "下列环保措施中，存在科学性错误的是：",
+    "options": [
+      "A. 使用无铅汽油减少大气污染",
+      "B. 将废旧电池深埋处理防止重金属污染",
+      "C. 推广使用可降解塑料减少白色污染",
+      "D. 采用石灰石-石膏法脱除燃煤烟气中的SO₂"
+    ],
+    "knowledge_points": [
+      "化学应用",
+      "环境保护"
+    ],
+    "user_answer": "",
+    "correct_answer": "B"
+  },
+  {
+    "id": 4,
+    "type": "choice",
+    "score": 5,
+    "content": "短周期元素X、Y、Z、W的原子序数依次增大，X的某种单质是自然界最硬的物质。下列说法错误的是：",
+    "options": [
+      "A. Y的最高价氧化物对应水化物可能是强酸",
+      "B. Z的简单离子半径小于W的简单离子半径",
+      "C. X与W形成的化合物具有高熔点",
+      "D. Y的气态氢化物稳定性强于Z的气态氢化物"
+    ],
+    "knowledge_points": [
+      "元素周期表",
+      "元素性质"
+    ],
+    "user_answer": "",
+    "correct_answer": "B"
+  },
+  {
+    "id": 5,
+    "type": "choice",
+    "score": 5,
+    "content": "下列实验操作与现象及结论对应正确的是：",
+    "options": [
+      "A. 向某溶液中滴加KSCN溶液变红，证明含Fe²⁺",
+      "B. 将湿润的红色石蕊试纸靠近氨气变蓝，证明氨气显碱性",
+      "C. 向Na₂CO₃溶液中滴加酚酞变红，证明Na₂CO₃是强碱",
+      "D. 向淀粉溶液中加入碘水变蓝，证明淀粉遇碘变蓝是化学反应"
+    ],
+    "knowledge_points": [
+      "化学实验",
+      "实验现象"
+    ],
+    "user_answer": "",
+    "correct_answer": "B"
+  },
+  {
+    "id": 6,
+    "type": "choice",
+    "score": 5,
+    "content": "新型光催化剂TiO₂-x能在可见光下催化分解水制氢，其反应为：2H₂O→2H₂↑+O₂↑。下列说法错误的是：",
+    "options": [
+      "A. 该反应将光能转化为化学能",
+      "B. TiO₂-x降低了水的分解活化能",
+      "C. 反应前后TiO₂-x的质量和化学性质不变",
+      "D. 该催化剂能提高氢气的平衡产率"
+    ],
+    "knowledge_points": [
+      "催化剂",
+      "化学反应原理"
+    ],
+    "user_answer": "",
+    "correct_answer": "D"
+  },
+  {
+    "id": 7,
+    "type": "essay",
+    "score": 12,
+    "content": "工业上以废铁屑为原料制备纳米氧化铁红（α-Fe₂O₃）的工艺流程如下：\n1. 将废铁屑与稀硫酸反应，得到硫酸亚铁溶液\n2. 向硫酸亚铁溶液中加入过量氨水，生成沉淀\n3. 将沉淀过滤、洗涤后煅烧，得到α-Fe₂O₃\n请回答：\n(1) 写出步骤1的离子方程式\n(2) 步骤2中，检验沉淀是否洗净的方法\n(3) 写出步骤3煅烧反应的化学方程式\n(4) 说明α-Fe₂O₃作为颜料的主要优点",
+    "options": [],
+    "knowledge_points": [
+      "无机化学",
+      "化学工艺"
+    ],
+    "user_answer": "",
+    "correct_answer": "(1) Fe + 2H⁺ → Fe²⁺ + H₂↑\n(2) 取最后一次洗涤液，加入BaCl₂溶液，若无白色沉淀则洗净\n(3) 2Fe(OH)₃ → Fe₂O₃ + 3H₂O\n(4) 颜色稳定、无毒、耐候性好"
+  },
+  {
+    "id": 8,
+    "type": "essay",
+    "score": 12,
+    "content": "二氧化钛(TiO₂)是一种重要的半导体材料，实验室制备流程如下：\n1. 将TiCl₄缓慢加入冰水中水解\n2. 调节pH至7-8，生成沉淀\n3. 沉淀经洗涤、干燥后煅烧得TiO₂\n请回答：\n(1) 写出步骤1的化学方程式\n(2) 步骤2中，选择氨水调节pH的原因\n(3) 写出煅烧反应的化学方程式\n(4) 说明TiO₂在光催化中的电子转移过程",
+    "options": [],
+    "knowledge_points": [
+      "无机材料",
+      "化学制备"
+    ],
+    "user_answer": "",
+    "correct_answer": "(1) TiCl₄ + 2H₂O → TiO₂ + 4HCl\n(2) 避免引入其他金属离子\n(3) TiO₂·xH₂O → TiO₂ + xH₂O\n(4) 光激发产生电子-空穴对，电子还原物质，空穴氧化物质"
+  },
+  {
+    "id": 9,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "已知函数f(x)=2x³-6x²+4，则f''(x)的零点坐标为______",
+    "options": [],
+    "knowledge_points": [
+      "导数"
+    ],
+    "user_answer": "",
+    "correct_answer": "1"
+  },
+  {
+    "id": 10,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "在空间直角坐标系中，平面2x-y+3z=6与x轴的交点坐标是______",
+    "options": [],
+    "knowledge_points": [
+      "空间几何"
+    ],
+    "user_answer": "",
+    "correct_answer": "(3,0,0)"
+  },
+  {
+    "id": 11,
+    "type": "fill_blank",
+    "score": 5,
+    "content": "已知二次函数f(x)=ax²+bx+c在x=1处取得最小值2，且f(0)=3，则a的值为______",
+    "options": [],
+    "knowledge_points": [
+      "函数"
+    ],
+    "user_answer": "",
+    "correct_answer": "1"
+  },
+  {
+    "id": 12,
+    "type": "essay",
+    "score": 12,
+    "content": "已知函数f(x)=x³-6x²+9x+2，求：(1)函数的单调区间 (2)极值点及极值",
+    "options": [],
+    "knowledge_points": [
+      "函数",
+      "导数"
+    ],
+    "user_answer": "",
+    "correct_answer": "(1) 增区间：(-∞,1)∪(3,+∞)；减区间：(1,3)\n(2) 极大值点x=1，f(1)=6；极小值点x=3，f(2)=2"
+  },
+  {
+    "id": 13,
+    "type": "essay",
+    "score": 12,
+    "content": "在△ABC中，角A、B、C的对边分别为a、b、c，已知cosA+cosB+cosC=3/2，证明△ABC为等边三角形",
+    "options": [],
+    "knowledge_points": [
+      "三角函数"
+    ],
+    "user_answer": "",
+    "correct_answer": "证明过程略"
+  },
+  {
+    "id": 14,
+    "type": "essay",
+    "score": 12,
+    "content": "求点P(2,-1,3)到平面3x-4y+z=5的距离",
+    "options": [],
+    "knowledge_points": [
+      "空间几何"
+    ],
+    "user_answer": "",
+    "correct_answer": "2"
+  },
+  {
+    "id": 15,
+    "type": "essay",
+    "score": 12,
+    "content": "已知函数f(x)=-x²+2ax+1在区间[0,2]上的最大值为3，求a的值",
+    "options": [],
+    "knowledge_points": [
+      "函数"
+    ],
+    "user_answer": "",
+    "correct_answer": "a=1或a=2"
+  },
+  {
+    "id": 16,
+    "type": "essay",
+    "score": 12,
+    "content": "已知数列{aₙ}的前n项和Sₙ=3n²-n，求通项公式aₙ",
+    "options": [],
+    "knowledge_points": [
+      "数列"
+    ],
+    "user_answer": "",
+    "correct_answer": "aₙ=6n-4 (n≥1)"
+  },
+  {
+    "id": 17,
+    "type": "essay",
+    "score": 12,
+    "content": "在等比数列{bₙ}中，b₂+b₄=20，b₃+b₅=40，求首项b₁和公比q",
+    "options": [],
+    "knowledge_points": [
+      "数列"
+    ],
+    "user_answer": "",
+    "correct_answer": "b₁=2，q=2"
+  },
+  {
+    "id": 18,
+    "type": "choice",
+    "score": 5,
+    "content": "关于石墨烯的应用，下列说法正确的是：",
+    "options": [
+      "A. 因其导电性可用于制备超级电容器",
+      "B. 因其硬度低适合用作润滑材料",
+      "C. 因其导热性差适合用作保温材料",
+      "D. 因其化学性质活泼适合用作催化剂载体"
+    ],
+    "knowledge_points": [
+      "纳米材料",
+      "材料应用"
+    ],
+    "user_answer": "",
+    "correct_answer": "A"
+  },
+  {
+    "id": 19,
+    "type": "choice",
+    "score": 5,
+    "content": "下列因果关系正确的是：",
+    "options": [
+      "A. 因为H₂O分子间有氢键，所以H₂O的沸点比H₂S高",
+      "B. 因为NH₃是极性分子，所以NH₃易溶于水",
+      "C. 因为NaCl是离子晶体，所以NaCl能导电",
+      "D. 因为CO₂是非极性分子，所以CO₂是气体"
+    ],
+    "knowledge_points": [
+      "化学反应原理",
+      "化学平衡"
+    ],
+    "user_answer": "",
+    "correct_answer": "A"
+  },
+  {
+    "id": 20,
+    "type": "choice",
+    "score": 5,
+    "content": "0.1 mol/L CH₃COOH溶液中，下列关系式正确的是：",
+    "options": [
+      "A. c(H⁺) = c(CH₃COO⁻)",
+      "B. c(CH₃COOH) > c(H⁺)",
+      "C. c(CH₃COO⁻) + c(OH⁻) = c(H⁺)",
+      "D. c(CH₃COOH) + c(CH₃COO⁻) = 0.2 mol/L"
+    ],
+    "knowledge_points": [
+      "溶液化学",
+      "离子浓度"
+    ],
+    "user_answer": "",
+    "correct_answer": "B"
+  },
+  {
+    "id": 21,
+    "type": "choice",
+    "score": 5,
+    "content": "将Cl₂通入FeBr₂溶液中，先观察到溶液变黄，后出现红褐色沉淀。下列说法正确的是：",
+    "options": [
+      "A. 氧化性：Cl₂ > Br₂ > Fe³⁺",
+      "B. 还原性：Fe²⁺ > Br⁻",
+      "C. 最终溶液中不存在Br⁻",
+      "D. 红褐色沉淀是FeBr₃"
+    ],
+    "knowledge_points": [
+      "氧化还原反应",
+      "溶液化学"
+    ],
+    "user_answer": "",
+    "correct_answer": "B"
+  }
+]
